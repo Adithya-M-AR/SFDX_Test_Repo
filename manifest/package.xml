@@ -1,7 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?><Package xmlns="http://soap.sforce.com/2006/04/metadata">
     <version>68.0</version>
     <types>
-        <members>Unrelated_test_Object__c.Test__c</members>
+        <members>dlrs__DeclarativeLookupRollupSummaries2</members>
+        <name>CustomApplication</name>
+    </types>
+    <types>
         <members>dlrs__LookupChild__c.dlrs__Amount__c</members>
         <members>dlrs__LookupChild__c.dlrs__Color__c</members>
         <members>dlrs__LookupChild__c.dlrs__Description2__c</members>
@@ -12,6 +15,7 @@
     </types>
     <types>
         <members>Unrelated_test_Object__c</members>
+        <members>dlrs__LookupChild__c</members>
         <name>CustomObject</name>
     </types>
     <types>

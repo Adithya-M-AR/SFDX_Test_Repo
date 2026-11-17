@@ -1,15 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?><Package xmlns="http://soap.sforce.com/2006/04/metadata">
     <version>68.0</version>
     <types>
-        <members>dlrs__LookupChild__c.dlrs__Amount__c</members>
-        <members>dlrs__LookupChild__c.dlrs__Color__c</members>
-        <members>dlrs__LookupChild__c.dlrs__Description2__c</members>
-        <members>dlrs__LookupChild__c.dlrs__Description__c</members>
-        <members>dlrs__LookupChild__c.dlrs__LookupParent2__c</members>
-        <members>dlrs__LookupChild__c.dlrs__LookupParent__c</members>
-        <name>CustomField</name>
-    </types>
-    <types>
         <members>Unrelated_test_Object__c</members>
         <name>CustomObject</name>
     </types>

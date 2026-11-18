@@ -15,7 +15,6 @@
     </types>
     <types>
         <members>Unrelated_test_Object__c</members>
-        <members>dlrs__LookupChild__c</members>
         <name>CustomObject</name>
     </types>
     <types>

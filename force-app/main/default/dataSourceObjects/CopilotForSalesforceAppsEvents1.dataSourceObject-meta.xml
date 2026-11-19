@@ -1,0 +1,341 @@
+<?xml version="1.0" encoding="UTF-8"?><DataSourceObject xmlns="http://soap.sforce.com/2006/04/metadata" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+    <creationType>Custom</creationType>
+    <dataSource>CopilotForSalesforceAppsEvents1</dataSource>
+    <dataSourceFields>
+        <fullName>ActionDuration</fullName>
+        <datatype>N</datatype>
+        <definitionCreationType>Standard</definitionCreationType>
+        <externalName>ActionDuration</externalName>
+        <isDataRequired>false</isDataRequired>
+        <isEventDate>false</isEventDate>
+        <isFormula>false</isFormula>
+        <isKeyQualifierFromSource>false</isKeyQualifierFromSource>
+        <isRecordModified>false</isRecordModified>
+        <masterLabel>Action Duration</masterLabel>
+        <sequence xsi:nil="true"/>
+        <usageTag>NONE</usageTag>
+        <versionNumber xsi:nil="true"/>
+    </dataSourceFields>
+    <dataSourceFields>
+        <fullName>ActionId</fullName>
+        <datatype>S</datatype>
+        <definitionCreationType>Standard</definitionCreationType>
+        <externalName>ActionId</externalName>
+        <isDataRequired>false</isDataRequired>
+        <isEventDate>false</isEventDate>
+        <isFormula>false</isFormula>
+        <isKeyQualifierFromSource>false</isKeyQualifierFromSource>
+        <isRecordModified>false</isRecordModified>
+        <masterLabel>Action ID</masterLabel>
+        <sequence xsi:nil="true"/>
+        <usageTag>NONE</usageTag>
+        <versionNumber xsi:nil="true"/>
+    </dataSourceFields>
+    <dataSourceFields>
+        <fullName>ActionName</fullName>
+        <datatype>S</datatype>
+        <definitionCreationType>Standard</definitionCreationType>
+        <externalName>ActionName</externalName>
+        <isDataRequired>false</isDataRequired>
+        <isEventDate>false</isEventDate>
+        <isFormula>false</isFormula>
+        <isKeyQualifierFromSource>false</isKeyQualifierFromSource>
+        <isRecordModified>false</isRecordModified>
+        <masterLabel>Action Name</masterLabel>
+        <sequence xsi:nil="true"/>
+        <usageTag>NONE</usageTag>
+        <versionNumber xsi:nil="true"/>
+    </dataSourceFields>
+    <dataSourceFields>
+        <fullName>ActionSuccess</fullName>
+        <datatype>B</datatype>
+        <definitionCreationType>Standard</definitionCreationType>
+        <externalName>ActionSuccess</externalName>
+        <isDataRequired>false</isDataRequired>
+        <isEventDate>false</isEventDate>
+        <isFormula>false</isFormula>
+        <isKeyQualifierFromSource>false</isKeyQualifierFromSource>
+        <isRecordModified>false</isRecordModified>
+        <masterLabel>Action Success</masterLabel>
+        <sequence xsi:nil="true"/>
+        <usageTag>NONE</usageTag>
+        <versionNumber xsi:nil="true"/>
+    </dataSourceFields>
+    <dataSourceFields>
+        <fullName>Channel</fullName>
+        <datatype>S</datatype>
+        <definitionCreationType>Standard</definitionCreationType>
+        <externalName>Channel</externalName>
+        <isDataRequired>false</isDataRequired>
+        <isEventDate>false</isEventDate>
+        <isFormula>false</isFormula>
+        <isKeyQualifierFromSource>false</isKeyQualifierFromSource>
+        <isRecordModified>false</isRecordModified>
+        <masterLabel>Channel</masterLabel>
+        <sequence xsi:nil="true"/>
+        <usageTag>NONE</usageTag>
+        <versionNumber xsi:nil="true"/>
+    </dataSourceFields>
+    <dataSourceFields>
+        <fullName>ConversationDefinition</fullName>
+        <datatype>S</datatype>
+        <definitionCreationType>Standard</definitionCreationType>
+        <externalName>ConversationDefinition</externalName>
+        <isDataRequired>false</isDataRequired>
+        <isEventDate>false</isEventDate>
+        <isFormula>false</isFormula>
+        <isKeyQualifierFromSource>false</isKeyQualifierFromSource>
+        <isRecordModified>false</isRecordModified>
+        <masterLabel>Conversation Definition</masterLabel>
+        <sequence xsi:nil="true"/>
+        <usageTag>NONE</usageTag>
+        <versionNumber xsi:nil="true"/>
+    </dataSourceFields>
+    <dataSourceFields>
+        <fullName>ConversationEventLogType</fullName>
+        <datatype>S</datatype>
+        <definitionCreationType>Standard</definitionCreationType>
+        <externalName>ConversationEventLogType</externalName>
+        <isDataRequired>false</isDataRequired>
+        <isEventDate>false</isEventDate>
+        <isFormula>false</isFormula>
+        <isKeyQualifierFromSource>false</isKeyQualifierFromSource>
+        <isRecordModified>false</isRecordModified>
+        <masterLabel>Conversation Event Log Type</masterLabel>
+        <sequence xsi:nil="true"/>
+        <usageTag>NONE</usageTag>
+        <versionNumber xsi:nil="true"/>
+    </dataSourceFields>
+    <dataSourceFields>
+        <fullName>CopilotName</fullName>
+        <datatype>S</datatype>
+        <definitionCreationType>Standard</definitionCreationType>
+        <externalName>CopilotName</externalName>
+        <isDataRequired>false</isDataRequired>
+        <isEventDate>false</isEventDate>
+        <isFormula>false</isFormula>
+        <isKeyQualifierFromSource>false</isKeyQualifierFromSource>
+        <isRecordModified>false</isRecordModified>
+        <masterLabel>Copilot Name</masterLabel>
+        <sequence xsi:nil="true"/>
+        <usageTag>NONE</usageTag>
+        <versionNumber xsi:nil="true"/>
+    </dataSourceFields>
+    <dataSourceFields>
+        <fullName>Date</fullName>
+        <datatype>F</datatype>
+        <definitionCreationType>Standard</definitionCreationType>
+        <externalName>Date</externalName>
+        <isDataRequired>false</isDataRequired>
+        <isEventDate>false</isEventDate>
+        <isFormula>false</isFormula>
+        <isKeyQualifierFromSource>false</isKeyQualifierFromSource>
+        <isRecordModified>false</isRecordModified>
+        <masterLabel>Date</masterLabel>
+        <sequence xsi:nil="true"/>
+        <usageTag>NONE</usageTag>
+        <versionNumber>1.0</versionNumber>
+    </dataSourceFields>
+    <dataSourceFields>
+        <fullName>ExternalLatencyTime</fullName>
+        <datatype>N</datatype>
+        <definitionCreationType>Standard</definitionCreationType>
+        <externalName>ExternalLatencyTime</externalName>
+        <isDataRequired>false</isDataRequired>
+        <isEventDate>false</isEventDate>
+        <isFormula>false</isFormula>
+        <isKeyQualifierFromSource>false</isKeyQualifierFromSource>
+        <isRecordModified>false</isRecordModified>
+        <masterLabel>External Latency Time</masterLabel>
+        <sequence xsi:nil="true"/>
+        <usageTag>NONE</usageTag>
+        <versionNumber xsi:nil="true"/>
+    </dataSourceFields>
+    <dataSourceFields>
+        <fullName>ExternalSessionKey</fullName>
+        <datatype>S</datatype>
+        <definitionCreationType>Standard</definitionCreationType>
+        <externalName>ExternalSessionKey</externalName>
+        <isDataRequired>false</isDataRequired>
+        <isEventDate>false</isEventDate>
+        <isFormula>false</isFormula>
+        <isKeyQualifierFromSource>false</isKeyQualifierFromSource>
+        <isRecordModified>false</isRecordModified>
+        <masterLabel>External Session Key</masterLabel>
+        <sequence xsi:nil="true"/>
+        <usageTag>NONE</usageTag>
+        <versionNumber xsi:nil="true"/>
+    </dataSourceFields>
+    <dataSourceFields>
+        <fullName>Language</fullName>
+        <datatype>S</datatype>
+        <definitionCreationType>Standard</definitionCreationType>
+        <externalName>Language</externalName>
+        <isDataRequired>false</isDataRequired>
+        <isEventDate>false</isEventDate>
+        <isFormula>false</isFormula>
+        <isKeyQualifierFromSource>false</isKeyQualifierFromSource>
+        <isRecordModified>false</isRecordModified>
+        <masterLabel>Language</masterLabel>
+        <sequence xsi:nil="true"/>
+        <usageTag>NONE</usageTag>
+        <versionNumber xsi:nil="true"/>
+    </dataSourceFields>
+    <dataSourceFields>
+        <fullName>Message</fullName>
+        <datatype>S</datatype>
+        <definitionCreationType>Standard</definitionCreationType>
+        <externalName>Message</externalName>
+        <isDataRequired>false</isDataRequired>
+        <isEventDate>false</isEventDate>
+        <isFormula>false</isFormula>
+        <isKeyQualifierFromSource>false</isKeyQualifierFromSource>
+        <isRecordModified>false</isRecordModified>
+        <masterLabel>Message</masterLabel>
+        <sequence xsi:nil="true"/>
+        <usageTag>NONE</usageTag>
+        <versionNumber xsi:nil="true"/>
+    </dataSourceFields>
+    <dataSourceFields>
+        <fullName>OrgId</fullName>
+        <datatype>S</datatype>
+        <definitionCreationType>Standard</definitionCreationType>
+        <externalName>OrgId</externalName>
+        <isDataRequired>false</isDataRequired>
+        <isEventDate>false</isEventDate>
+        <isFormula>false</isFormula>
+        <isKeyQualifierFromSource>false</isKeyQualifierFromSource>
+        <isRecordModified>false</isRecordModified>
+        <masterLabel>Org ID</masterLabel>
+        <sequence xsi:nil="true"/>
+        <usageTag>NONE</usageTag>
+        <versionNumber xsi:nil="true"/>
+    </dataSourceFields>
+    <dataSourceFields>
+        <fullName>PlanData</fullName>
+        <datatype>S</datatype>
+        <definitionCreationType>Standard</definitionCreationType>
+        <externalName>PlanData</externalName>
+        <isDataRequired>false</isDataRequired>
+        <isEventDate>false</isEventDate>
+        <isFormula>false</isFormula>
+        <isKeyQualifierFromSource>false</isKeyQualifierFromSource>
+        <isRecordModified>false</isRecordModified>
+        <masterLabel>Plan Data</masterLabel>
+        <sequence xsi:nil="true"/>
+        <usageTag>NONE</usageTag>
+        <versionNumber xsi:nil="true"/>
+    </dataSourceFields>
+    <dataSourceFields>
+        <fullName>PreviousEventLogUuid</fullName>
+        <datatype>S</datatype>
+        <definitionCreationType>Standard</definitionCreationType>
+        <externalName>PreviousEventLogUuid</externalName>
+        <isDataRequired>false</isDataRequired>
+        <isEventDate>false</isEventDate>
+        <isFormula>false</isFormula>
+        <isKeyQualifierFromSource>false</isKeyQualifierFromSource>
+        <isRecordModified>false</isRecordModified>
+        <masterLabel>Previous Event Log UUID</masterLabel>
+        <sequence xsi:nil="true"/>
+        <usageTag>NONE</usageTag>
+        <versionNumber xsi:nil="true"/>
+    </dataSourceFields>
+    <dataSourceFields>
+        <fullName>SessionId</fullName>
+        <datatype>S</datatype>
+        <definitionCreationType>Standard</definitionCreationType>
+        <externalName>SessionId</externalName>
+        <isDataRequired>false</isDataRequired>
+        <isEventDate>false</isEventDate>
+        <isFormula>false</isFormula>
+        <isKeyQualifierFromSource>false</isKeyQualifierFromSource>
+        <isRecordModified>false</isRecordModified>
+        <masterLabel>Session ID</masterLabel>
+        <sequence xsi:nil="true"/>
+        <usageTag>NONE</usageTag>
+        <versionNumber xsi:nil="true"/>
+    </dataSourceFields>
+    <dataSourceFields>
+        <fullName>Topic</fullName>
+        <datatype>S</datatype>
+        <definitionCreationType>Standard</definitionCreationType>
+        <externalName>Topic</externalName>
+        <isDataRequired>false</isDataRequired>
+        <isEventDate>false</isEventDate>
+        <isFormula>false</isFormula>
+        <isKeyQualifierFromSource>false</isKeyQualifierFromSource>
+        <isRecordModified>false</isRecordModified>
+        <masterLabel>Topic</masterLabel>
+        <sequence xsi:nil="true"/>
+        <usageTag>NONE</usageTag>
+        <versionNumber xsi:nil="true"/>
+    </dataSourceFields>
+    <dataSourceFields>
+        <fullName>TurnId</fullName>
+        <datatype>S</datatype>
+        <definitionCreationType>Standard</definitionCreationType>
+        <externalName>TurnId</externalName>
+        <isDataRequired>false</isDataRequired>
+        <isEventDate>false</isEventDate>
+        <isFormula>false</isFormula>
+        <isKeyQualifierFromSource>false</isKeyQualifierFromSource>
+        <isRecordModified>false</isRecordModified>
+        <masterLabel>Turn ID</masterLabel>
+        <sequence xsi:nil="true"/>
+        <usageTag>NONE</usageTag>
+        <versionNumber xsi:nil="true"/>
+    </dataSourceFields>
+    <dataSourceFields>
+        <fullName>UserId</fullName>
+        <datatype>S</datatype>
+        <definitionCreationType>Standard</definitionCreationType>
+        <externalName>UserId</externalName>
+        <isDataRequired>false</isDataRequired>
+        <isEventDate>false</isEventDate>
+        <isFormula>false</isFormula>
+        <isKeyQualifierFromSource>false</isKeyQualifierFromSource>
+        <isRecordModified>false</isRecordModified>
+        <masterLabel>User ID</masterLabel>
+        <sequence xsi:nil="true"/>
+        <usageTag>NONE</usageTag>
+        <versionNumber xsi:nil="true"/>
+    </dataSourceFields>
+    <dataSourceFields>
+        <fullName>UserName</fullName>
+        <datatype>S</datatype>
+        <definitionCreationType>Standard</definitionCreationType>
+        <externalName>UserName</externalName>
+        <isDataRequired>false</isDataRequired>
+        <isEventDate>false</isEventDate>
+        <isFormula>false</isFormula>
+        <isKeyQualifierFromSource>false</isKeyQualifierFromSource>
+        <isRecordModified>false</isRecordModified>
+        <masterLabel>User Name</masterLabel>
+        <sequence xsi:nil="true"/>
+        <usageTag>NONE</usageTag>
+        <versionNumber xsi:nil="true"/>
+    </dataSourceFields>
+    <dataSourceFields>
+        <fullName>uuid</fullName>
+        <datatype>S</datatype>
+        <definitionCreationType>Standard</definitionCreationType>
+        <externalName>uuid</externalName>
+        <isDataRequired>false</isDataRequired>
+        <isEventDate>false</isEventDate>
+        <isFormula>false</isFormula>
+        <isKeyQualifierFromSource>false</isKeyQualifierFromSource>
+        <isRecordModified>false</isRecordModified>
+        <masterLabel>UUID</masterLabel>
+        <primaryIndexOrder>1</primaryIndexOrder>
+        <sequence xsi:nil="true"/>
+        <usageTag>NONE</usageTag>
+        <versionNumber xsi:nil="true"/>
+    </dataSourceFields>
+    <masterLabel>Copilot for Salesforce Apps Events</masterLabel>
+    <objectCategory>Related</objectCategory>
+    <objectType>Object</objectType>
+    <sourceObject>CopilotForSalesforceAppsEvents__dll</sourceObject>
+    <storageType>LOCAL</storageType>
+    <templateVersion>1</templateVersion>
+</DataSourceObject>

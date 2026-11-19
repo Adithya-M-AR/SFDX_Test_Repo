@@ -1,6 +1,40 @@
 <?xml version="1.0" encoding="UTF-8"?><Package xmlns="http://soap.sforce.com/2006/04/metadata">
     <version>68.0</version>
     <types>
+        <members>CopilotAnalyticsCalculator__dlm.BotId__c</members>
+        <members>CopilotAnalyticsCalculator__dlm.Date__c</members>
+        <members>CopilotAnalyticsCalculator__dlm.Feature__c</members>
+        <members>CopilotAnalyticsCalculator__dlm.GroupByField1__c</members>
+        <members>CopilotAnalyticsCalculator__dlm.GroupByField2__c</members>
+        <members>CopilotAnalyticsCalculator__dlm.GroupByField3__c</members>
+        <members>CopilotAnalyticsCalculator__dlm.GroupByValue1__c</members>
+        <members>CopilotAnalyticsCalculator__dlm.GroupByValue2__c</members>
+        <members>CopilotAnalyticsCalculator__dlm.GroupByValue3__c</members>
+        <members>CopilotAnalyticsCalculator__dlm.MetricId__c</members>
+        <members>CopilotAnalyticsCalculator__dlm.MetricKey__c</members>
+        <members>CopilotAnalyticsCalculator__dlm.MetricValue__c</members>
+        <members>CopilotForSalesforceAppsEvents__dlm.ActionDuration__c</members>
+        <members>CopilotForSalesforceAppsEvents__dlm.ActionId__c</members>
+        <members>CopilotForSalesforceAppsEvents__dlm.ActionName__c</members>
+        <members>CopilotForSalesforceAppsEvents__dlm.ActionSuccess__c</members>
+        <members>CopilotForSalesforceAppsEvents__dlm.Channel__c</members>
+        <members>CopilotForSalesforceAppsEvents__dlm.ConversationDefinition__c</members>
+        <members>CopilotForSalesforceAppsEvents__dlm.ConversationEventLogType__c</members>
+        <members>CopilotForSalesforceAppsEvents__dlm.CopilotName__c</members>
+        <members>CopilotForSalesforceAppsEvents__dlm.Date__c</members>
+        <members>CopilotForSalesforceAppsEvents__dlm.ExternalLatencyTime__c</members>
+        <members>CopilotForSalesforceAppsEvents__dlm.ExternalSessionKey__c</members>
+        <members>CopilotForSalesforceAppsEvents__dlm.Language__c</members>
+        <members>CopilotForSalesforceAppsEvents__dlm.Message__c</members>
+        <members>CopilotForSalesforceAppsEvents__dlm.OrgId__c</members>
+        <members>CopilotForSalesforceAppsEvents__dlm.PlanData__c</members>
+        <members>CopilotForSalesforceAppsEvents__dlm.PreviousEventLogUuid__c</members>
+        <members>CopilotForSalesforceAppsEvents__dlm.SessionId__c</members>
+        <members>CopilotForSalesforceAppsEvents__dlm.Topic__c</members>
+        <members>CopilotForSalesforceAppsEvents__dlm.TurnId__c</members>
+        <members>CopilotForSalesforceAppsEvents__dlm.UserId__c</members>
+        <members>CopilotForSalesforceAppsEvents__dlm.UserName__c</members>
+        <members>CopilotForSalesforceAppsEvents__dlm.uuid__c</members>
         <members>Dedicated_CSVcsv__dlm.ARM__c</members>
         <members>Dedicated_CSVcsv__dlm.CODESCAN__c</members>
         <members>Dedicated_CSVcsv__dlm.DataSourceObject__c</members>
@@ -49,6 +83,8 @@
         <name>CustomField</name>
     </types>
     <types>
+        <members>CopilotAnalyticsCalculator__dlm</members>
+        <members>CopilotForSalesforceAppsEvents__dlm</members>
         <members>Dedicated_CSVcsv__dlm</members>
         <members>Tes_ContactPointEmail__dlm</members>
         <members>Tes_Individual__dlm</members>
@@ -61,13 +97,21 @@
         <members>LEARN_CI_LifetimeValue1</members>
         <members>Tes_Engagement_Score</members>
         <members>Tes_Lifetime_Value</members>
+        <members>template_feedback</members>
+        <members>template_feedback_reasons</members>
         <name>DataCalcInsightTemplate</name>
     </types>
     <types>
+        <members>BotDefinition_Home</members>
+        <members>BotVersion_Home</members>
+        <members>CopilotAnalyticsCalculator</members>
+        <members>CopilotForSalesforceAppsEvents</members>
         <members>Dedicated_CSVcsv1</members>
         <members>Retail</members>
         <members>Retail360_Ingest_customers_98D48F06</members>
         <members>Retail360_Ingest_orders_7E72B3D4</members>
+        <members>SalesforceDotCom_Home</members>
+        <members>SalesforceDotCom_Home1</members>
         <members>UploadedFiles</members>
         <members>UploadedFiles2</members>
         <members>UploadedFiles3</members>
@@ -77,16 +121,22 @@
         <name>DataKitObjectDependency</name>
     </types>
     <types>
+        <members>BotDefinition_Home</members>
+        <members>BotVersion_Home</members>
+        <members>CopilotAnalyticsCalculator</members>
+        <members>CopilotForSalesforceAppsEvents</members>
         <members>Dedicated_CSVcsv1</members>
         <members>Learn_Activation_Target1</members>
         <members>Learn_Segment1</members>
         <members>Learn_Test17915433722621</members>
+        <members>MarketingDataConnection</members>
         <members>Retail</members>
         <members>Retail360_Activation1792059566671</members>
         <members>Retail360_DataTransform1</members>
         <members>Retail360_Ingest_customers_98D48F06</members>
         <members>Retail360_Ingest_orders_7E72B3D4</members>
         <members>Retail360_Target</members>
+        <members>SalesforceDotCom_Home</members>
         <members>Tes_Engaged_Buyers</members>
         <members>Tes_High_Value</members>
         <members>Tes_High_Value_Engaged</members>
@@ -99,10 +149,24 @@
         <name>DataKitObjectTemplate</name>
     </types>
     <types>
+        <members>Replication</members>
         <members>Test_Learn</members>
         <name>DataPackageKitDefinition</name>
     </types>
     <types>
+        <members>Replication_1794476018140</members>
+        <members>Replication_1794476087547</members>
+        <members>Replication_1794476088323</members>
+        <members>Replication_1794476088625</members>
+        <members>Replication_1794476089213</members>
+        <members>Replication_1794476120987</members>
+        <members>Replication_1794476121219</members>
+        <members>Replication_1794476147432</members>
+        <members>Replication_1794476147803</members>
+        <members>Replication_1794476186533</members>
+        <members>Replication_1794476186654</members>
+        <members>Replication_1794476187984</members>
+        <members>Replication_1794476188056</members>
         <members>Retail360_Datakit_1792068641818</members>
         <members>Retail360_Datakit_1792068641991</members>
         <members>Retail360_Datakit_1792068642161</members>
@@ -139,7 +203,10 @@
         <name>DataPackageKitObject</name>
     </types>
     <types>
+        <members>CopilotAnalyticsCalculator1</members>
+        <members>CopilotForSalesforceAppsEvents1</members>
         <members>Retail360_Ingest_d2019c27_292d_4aad_82e7_5706f971221a</members>
+        <members>Salesforce_Home</members>
         <members>UploadedFiles</members>
         <members>test_csv_copy</members>
         <name>DataSource</name>
@@ -147,10 +214,15 @@
     <types>
         <members>File</members>
         <members>Retail</members>
+        <members>Test1</members>
         <members>adithya</members>
         <name>DataSourceBundleDefinition</name>
     </types>
     <types>
+        <members>BotDefinition_Home1</members>
+        <members>BotVersion_Home1</members>
+        <members>CopilotAnalyticsCalculator1</members>
+        <members>CopilotForSalesforceAppsEvents1</members>
         <members>Dedicated_CSVcsv2</members>
         <members>Retail360_Ingest_customers_98D48F06</members>
         <members>Retail360_Ingest_orders_7E72B3D4</members>
@@ -160,6 +232,40 @@
         <name>DataSourceObject</name>
     </types>
     <types>
+        <members>ReplicationCopilotAnalyticsCalculator1BotIdCopilotAnalyticsCalculatorBotIdUmzGBzfBpaZUmmC</members>
+        <members>ReplicationCopilotAnalyticsCalculator1DateCopilotAnalyticsCalculatorDateIUozUfYIAEhcYcQ</members>
+        <members>ReplicationCopilotAnalyticsCalculator1FeatureCopilotAnalyticsCalculatorFeaturehLvbdIgKlwYjHah</members>
+        <members>ReplicationCopilotAnalyticsCalculator1GroupByField1CopilotAnalyticsCalculatorGroupByField1fiXXtNNpBJWAFWZ</members>
+        <members>ReplicationCopilotAnalyticsCalculator1GroupByField2CopilotAnalyticsCalculatorGroupByField2baFWgfMtCqxWEpO</members>
+        <members>ReplicationCopilotAnalyticsCalculator1GroupByField3CopilotAnalyticsCalculatorGroupByField3jYAsTCzQwfRiGlB</members>
+        <members>ReplicationCopilotAnalyticsCalculator1GroupByValue1CopilotAnalyticsCalculatorGroupByValue1VwlMSXpdrRVpVCs</members>
+        <members>ReplicationCopilotAnalyticsCalculator1GroupByValue2CopilotAnalyticsCalculatorGroupByValue2vKaLKQMJjLRuKPu</members>
+        <members>ReplicationCopilotAnalyticsCalculator1GroupByValue3CopilotAnalyticsCalculatorGroupByValue3SvCQPENilgozeyi</members>
+        <members>ReplicationCopilotAnalyticsCalculator1MetricIdCopilotAnalyticsCalculatorMetricIduueuGdKDVaRMtHS</members>
+        <members>ReplicationCopilotAnalyticsCalculator1MetricKeyCopilotAnalyticsCalculatorMetricKeyfmxFXeVjmcZeAnT</members>
+        <members>ReplicationCopilotAnalyticsCalculator1MetricValueCopilotAnalyticsCalculatorMetricValueXnJKElBFHRVEizV</members>
+        <members>ReplicationCopilotForSalesforceAppsEvents1ActionDurationCopilotForSalesforceAppsEventsActionDurationSWpIbWqumdKXZNv</members>
+        <members>ReplicationCopilotForSalesforceAppsEvents1ActionIdCopilotForSalesforceAppsEventsActionIdCHCFTwndyhtsyEq</members>
+        <members>ReplicationCopilotForSalesforceAppsEvents1ActionNameCopilotForSalesforceAppsEventsActionNameQOvEvEENhWBOHUw</members>
+        <members>ReplicationCopilotForSalesforceAppsEvents1ActionSuccessCopilotForSalesforceAppsEventsActionSuccessnBDJwgwQIakPklK</members>
+        <members>ReplicationCopilotForSalesforceAppsEvents1ChannelCopilotForSalesforceAppsEventsChannelbFTzrKrFyLenSCj</members>
+        <members>ReplicationCopilotForSalesforceAppsEvents1ConversationDefinitionCopilotForSalesforceAppsEventsConversationDefinitionoSAvFEbXqAplsxz</members>
+        <members>ReplicationCopilotForSalesforceAppsEvents1ConversationEventLogTypeCopilotForSalesforceAppsEventsConversationEventLogTyperyPPfKtLPzXMNKl</members>
+        <members>ReplicationCopilotForSalesforceAppsEvents1CopilotNameCopilotForSalesforceAppsEventsCopilotNameksQRLuliKSYFFSD</members>
+        <members>ReplicationCopilotForSalesforceAppsEvents1DateCopilotForSalesforceAppsEventsDateYWYLHkWfTstGvrD</members>
+        <members>ReplicationCopilotForSalesforceAppsEvents1ExternalLatencyTimeCopilotForSalesforceAppsEventsExternalLatencyTimeWhAkibRAudGdblh</members>
+        <members>ReplicationCopilotForSalesforceAppsEvents1ExternalSessionKeyCopilotForSalesforceAppsEventsExternalSessionKeyoOpDNojTHawYqOF</members>
+        <members>ReplicationCopilotForSalesforceAppsEvents1LanguageCopilotForSalesforceAppsEventsLanguagesTMrUESoXMobbLz</members>
+        <members>ReplicationCopilotForSalesforceAppsEvents1MessageCopilotForSalesforceAppsEventsMessageNoxOavjILGiGbwd</members>
+        <members>ReplicationCopilotForSalesforceAppsEvents1OrgIdCopilotForSalesforceAppsEventsOrgIdbUQdQAFFEXUDIzq</members>
+        <members>ReplicationCopilotForSalesforceAppsEvents1PlanDataCopilotForSalesforceAppsEventsPlanDataQQErNUxhVANoZjQ</members>
+        <members>ReplicationCopilotForSalesforceAppsEvents1PreviousEventLogUuidCopilotForSalesforceAppsEventsPreviousEventLogUuidpzPYbOarhWYIBhC</members>
+        <members>ReplicationCopilotForSalesforceAppsEvents1SessionIdCopilotForSalesforceAppsEventsSessionIdMmrSvqqbOaFgLFN</members>
+        <members>ReplicationCopilotForSalesforceAppsEvents1TopicCopilotForSalesforceAppsEventsTopicysmNwwGEmLRRgYU</members>
+        <members>ReplicationCopilotForSalesforceAppsEvents1TurnIdCopilotForSalesforceAppsEventsTurnIdrSgJDuXnXJaDhmg</members>
+        <members>ReplicationCopilotForSalesforceAppsEvents1UserIdCopilotForSalesforceAppsEventsUserIdZfqNnvtXkoieiVH</members>
+        <members>ReplicationCopilotForSalesforceAppsEvents1UserNameCopilotForSalesforceAppsEventsUserNameeJvCdkCGjDErJEE</members>
+        <members>ReplicationCopilotForSalesforceAppsEvents1uuidCopilotForSalesforceAppsEventsuuidEupRpXWEmblGvpN</members>
         <members>Retail360_DatakitRetail360_Ingest_d2019c27_292d_4aad_82e7DataSourceObjectTes_ContactPointEmailDataSourceObjectIdAHMtehfNPbDFWkT</members>
         <members>Retail360_DatakitRetail360_Ingest_d2019c27_292d_4aad_82e7DataSourceObjectTes_IndividualDataSourceObjectIdISENSjDXKZaCZZN</members>
         <members>Retail360_DatakitRetail360_Ingest_d2019c27_292d_4aad_82e7DataSourceObjectTes_SalesOrderDataSourceObjectIdZFNSHKXBamvuoCC</members>
@@ -210,6 +316,8 @@
         <name>DataSrcDataModelFieldMap</name>
     </types>
     <types>
+        <members>BotDefinition_Home_1794476089234</members>
+        <members>BotVersion_Home_1794476088347</members>
         <members>Dedicated_CSVcsv_1795079497900</members>
         <members>Retail360_Ingest_customers_98D48F06_1792552924296</members>
         <members>Retail360_Ingest_orders_7E72B3D4_1792552922247</members>

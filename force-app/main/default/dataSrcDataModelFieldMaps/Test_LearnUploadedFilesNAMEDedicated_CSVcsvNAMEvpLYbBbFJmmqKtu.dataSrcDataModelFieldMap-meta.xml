@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<DataSrcDataModelFieldMap xmlns="http://soap.sforce.com/2006/04/metadata">
+    <filterApplied>false</filterApplied>
+    <masterLabel>Test_LearnUploadedFilesNAMEDedicated_CSVcsvNAMEvpLYbBbFJmmqKtu</masterLabel>
+    <sourceField>Dedicated_CSVcsv2.NAME__c</sourceField>
+    <targetField>Dedicated_CSVcsv__dlm.NAME__c</targetField>
+    <templateVersion>1</templateVersion>
+    <versionNumber>1.0</versionNumber>
+</DataSrcDataModelFieldMap>

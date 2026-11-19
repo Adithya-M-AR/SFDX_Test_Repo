@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<DataPackageKitDefinition xmlns="http://soap.sforce.com/2006/04/metadata">
+    <dataKitSource>LOCAL</dataKitSource>
+    <dataKitType>SANDBOX</dataKitType>
+    <dataSpaceDefinitionDevName>default</dataSpaceDefinitionDevName>
+    <deploymentOrder>{&quot;isAutoSequence&quot;:true,&quot;sequence&quot;:[{&quot;devName&quot;:&quot;UploadedFiles&quot;,&quot;type&quot;:&quot;MktDataConnection&quot;,&quot;id&quot;:&quot;9cgak000001993VAAQ&quot;},{&quot;devName&quot;:&quot;adithya&quot;,&quot;type&quot;:&quot;DataStream&quot;},{&quot;devName&quot;:&quot;Learn_Segment1&quot;,&quot;type&quot;:&quot;MarketSegment&quot;,&quot;id&quot;:&quot;1sgWC0000000BrVYAU&quot;},{&quot;devName&quot;:&quot;Learn_Activation_Target1&quot;,&quot;type&quot;:&quot;ActivationTarget&quot;,&quot;id&quot;:&quot;85UWC000002B3MP2A0&quot;},{&quot;devName&quot;:&quot;Learn_Test17915433722621&quot;,&quot;type&quot;:&quot;MarketSegmentActivation&quot;,&quot;id&quot;:&quot;85RWC000001Ru2L&quot;},{&quot;devName&quot;:&quot;LEARN_CI_LifetimeValue1&quot;,&quot;type&quot;:&quot;DataCalcInsightTemplate&quot;}]}</deploymentOrder>
+    <developerName>Test_Learn</developerName>
+    <isDeployed>false</isDeployed>
+    <isEnabled>false</isEnabled>
+    <masterLabel>Test_Learn</masterLabel>
+    <useDeterministicNaming>false</useDeterministicNaming>
+    <versionNumber>7.0</versionNumber>
+</DataPackageKitDefinition>

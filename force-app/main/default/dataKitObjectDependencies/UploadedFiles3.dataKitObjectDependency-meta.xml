@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<DataKitObjectDependency xmlns="http://soap.sforce.com/2006/04/metadata">
+    <dataPackageKitDef>Test_Learn</dataPackageKitDef>
+    <developerName>UploadedFiles3</developerName>
+    <masterLabel>UploadedFiles</masterLabel>
+    <sourceObject>test_csv_1795079499183</sourceObject>
+    <sourceObjectType>DataStreamTemplate</sourceObjectType>
+    <targetObject>UploadedFiles</targetObject>
+</DataKitObjectDependency>

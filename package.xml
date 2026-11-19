@@ -1,17 +1,114 @@
 <?xml version="1.0" encoding="UTF-8"?><Package xmlns="http://soap.sforce.com/2006/04/metadata">
     <version>68.0</version>
     <types>
+        <members>Dedicated_CSVcsv__dlm.ARM__c</members>
+        <members>Dedicated_CSVcsv__dlm.CODESCAN__c</members>
+        <members>Dedicated_CSVcsv__dlm.DataSourceObject__c</members>
+        <members>Dedicated_CSVcsv__dlm.DataSource__c</members>
+        <members>Dedicated_CSVcsv__dlm.EMAIL__c</members>
+        <members>Dedicated_CSVcsv__dlm.ExternalId__c</members>
+        <members>Dedicated_CSVcsv__dlm.GUARD__c</members>
+        <members>Dedicated_CSVcsv__dlm.InternalOrganization__c</members>
+        <members>Dedicated_CSVcsv__dlm.NAME__c</members>
+        <members>Dedicated_CSVcsv__dlm.VAULT__c</members>
+        <members>Dedicated_CSVcsv__dlm.cdp_sys_SourceVersion__c</members>
         <members>dlrs__LookupChild__c.dlrs__Amount__c</members>
         <members>dlrs__LookupChild__c.dlrs__Color__c</members>
         <members>dlrs__LookupChild__c.dlrs__Description2__c</members>
         <members>dlrs__LookupChild__c.dlrs__Description__c</members>
         <members>dlrs__LookupChild__c.dlrs__LookupParent2__c</members>
         <members>dlrs__LookupChild__c.dlrs__LookupParent__c</members>
+        <members>ssot__Individual__dlm.City__c</members>
+        <members>ssot__Individual__dlm.Purchase_Amount__c</members>
         <name>CustomField</name>
     </types>
     <types>
+        <members>Dedicated_CSVcsv__dlm</members>
         <members>Unrelated_test_Object__c</members>
         <name>CustomObject</name>
+    </types>
+    <types>
+        <members>LEARN_CI_LifetimeValue1</members>
+        <name>DataCalcInsightTemplate</name>
+    </types>
+    <types>
+        <members>Dedicated_CSVcsv1</members>
+        <members>UploadedFiles2</members>
+        <members>UploadedFiles3</members>
+        <members>test_csv1</members>
+        <name>DataKitObjectDependency</name>
+    </types>
+    <types>
+        <members>Dedicated_CSVcsv1</members>
+        <members>Learn_Activation_Target1</members>
+        <members>Learn_Segment1</members>
+        <members>Learn_Test17915433722621</members>
+        <members>UploadedFiles</members>
+        <members>test_csv1</members>
+        <name>DataKitObjectTemplate</name>
+    </types>
+    <types>
+        <members>Test_Learn</members>
+        <name>DataPackageKitDefinition</name>
+    </types>
+    <types>
+        <members>Test_Learn_1795079495311</members>
+        <members>Test_Learn_1795079495474</members>
+        <members>Test_Learn_1795079495614</members>
+        <members>Test_Learn_1795079495816</members>
+        <members>Test_Learn_1795079496072</members>
+        <members>Test_Learn_1795079496687</members>
+        <members>Test_Learn_1795079498509</members>
+        <members>Test_Learn_1795079540091</members>
+        <members>Test_Learn_1795079563418</members>
+        <members>Test_Learn_1795079598016</members>
+        <members>Test_Learn_1795079623833</members>
+        <name>DataPackageKitObject</name>
+    </types>
+    <types>
+        <members>UploadedFiles</members>
+        <name>DataSource</name>
+    </types>
+    <types>
+        <members>adithya</members>
+        <name>DataSourceBundleDefinition</name>
+    </types>
+    <types>
+        <members>Dedicated_CSVcsv2</members>
+        <members>test_csv2</members>
+        <name>DataSourceObject</name>
+    </types>
+    <types>
+        <members>Test_LearnUploadedFilesARMDedicated_CSVcsvARMKlflJbpiFdciFQX</members>
+        <members>Test_LearnUploadedFilesCODESCANDedicated_CSVcsvCODESCANvyfJZbAruTCNXHk</members>
+        <members>Test_LearnUploadedFilesCityIndividualCityHRLtZDVtpQIAdmx</members>
+        <members>Test_LearnUploadedFilesDataSourceContactPointEmailDataSourceIdxPmuZqHCcDIGrDm</members>
+        <members>Test_LearnUploadedFilesDataSourceDedicated_CSVcsvDataSourcebbCwLWhwIqczSBy</members>
+        <members>Test_LearnUploadedFilesDataSourceIndividualDataSourceIdfPnFIBedyYNXbmU</members>
+        <members>Test_LearnUploadedFilesDataSourceObjectContactPointEmailDataSourceObjectIdXezdflSwRTNOgXa</members>
+        <members>Test_LearnUploadedFilesDataSourceObjectDedicated_CSVcsvDataSourceObjectTBJPsgRDlUsQudJ</members>
+        <members>Test_LearnUploadedFilesDataSourceObjectIndividualDataSourceObjectIdLpMcBXSIoVPFgcK</members>
+        <members>Test_LearnUploadedFilesEMAILDedicated_CSVcsvEMAILGQIumPDDSmxMgoj</members>
+        <members>Test_LearnUploadedFilesEmailContactPointEmailEmailAddressIfbJLapHQCzWjds</members>
+        <members>Test_LearnUploadedFilesEmailContactPointEmailIdjYDqasdUtesjEIJ</members>
+        <members>Test_LearnUploadedFilesExternalIdContactPointEmailPartyIdRGhabijKRQQdbXm</members>
+        <members>Test_LearnUploadedFilesExternalIdDedicated_CSVcsvExternalIdByUjpotEhhnhNOP</members>
+        <members>Test_LearnUploadedFilesExternalIdIndividualIdrxivWsZFuUODCNN</members>
+        <members>Test_LearnUploadedFilesFirstNameIndividualFirstNamePtwosNPHBRBUcDl</members>
+        <members>Test_LearnUploadedFilesGUARDDedicated_CSVcsvGUARDqgylurGqbcbNQLU</members>
+        <members>Test_LearnUploadedFilesInternalOrganizationContactPointEmailInternalOrganizationIdfwAiCZhGRtMDWlx</members>
+        <members>Test_LearnUploadedFilesInternalOrganizationDedicated_CSVcsvInternalOrganizationHUIzAjhAVANYJXD</members>
+        <members>Test_LearnUploadedFilesInternalOrganizationIndividualInternalOrganizationIdvADfjHLYYwjTpCh</members>
+        <members>Test_LearnUploadedFilesLastNameIndividualLastNameMrwToPAYbscfGgB</members>
+        <members>Test_LearnUploadedFilesNAMEDedicated_CSVcsvNAMEvpLYbBbFJmmqKtu</members>
+        <members>Test_LearnUploadedFilesPurchaseAmountIndividualPurchase_AmountnPUXGABbCGmnDwv</members>
+        <members>Test_LearnUploadedFilesVAULTDedicated_CSVcsvVAULTNAjaDXMtDyPHmtI</members>
+        <name>DataSrcDataModelFieldMap</name>
+    </types>
+    <types>
+        <members>Dedicated_CSVcsv_1795079497900</members>
+        <members>test_csv_1795079499183</members>
+        <name>DataStreamTemplate</name>
     </types>
     <types>
         <members>Unrelated_test_Object__c.All</members>

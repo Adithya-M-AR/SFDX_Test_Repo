@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<DataKitObjectDependency xmlns="http://soap.sforce.com/2006/04/metadata">
+    <dataPackageKitDef>Retail360_Datakit</dataPackageKitDef>
+    <developerName>test_csv_copy</developerName>
+    <masterLabel>test_csv_copy__dll</masterLabel>
+    <sourceObject>test_csv_copy</sourceObject>
+    <sourceObjectType>DataSourceObject</sourceObjectType>
+    <targetObject>test_csv_copy</targetObject>
+</DataKitObjectDependency>

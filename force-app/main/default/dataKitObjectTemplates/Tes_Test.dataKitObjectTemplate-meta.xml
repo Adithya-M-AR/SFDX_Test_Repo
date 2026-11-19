@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<DataKitObjectTemplate xmlns="http://soap.sforce.com/2006/04/metadata" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+    <developerName xsi:nil="true"/>
+    <entityPayload>{&quot;publishType&quot;:&quot;STANDARD&quot;,&quot;displayName&quot;:&quot;Test&quot;,&quot;segmentOnLabel&quot;:&quot;Unified Individual New&quot;,&quot;segmentOnIsUnified&quot;:true,&quot;lookbackPeriod&quot;:&quot;P90D&quot;,&quot;unifiedDmoCollection&quot;:[{&quot;rulesetId&quot;:&quot;New&quot;,&quot;sourceEntityDevName&quot;:&quot;Tes_Individual__dlm&quot;,&quot;bridgeEntityDevName&quot;:&quot;Tes_UnifiedLinkIndividualNew__dlm&quot;,&quot;unifiedEntityDevName&quot;:&quot;Tes_UnifiedIndividualNew__dlm&quot;},{&quot;rulesetId&quot;:&quot;New&quot;,&quot;sourceEntityDevName&quot;:&quot;Tes_ContactPointEmail__dlm&quot;,&quot;bridgeEntityDevName&quot;:&quot;Tes_UnifiedLinkContactPointEmailNew__dlm&quot;,&quot;unifiedEntityDevName&quot;:&quot;Tes_UnifiedContactPointEmailNew__dlm&quot;}],&quot;type&quot;:&quot;UI&quot;,&quot;segmentOnApiName&quot;:&quot;Tes_UnifiedIndividualNew__dlm&quot;,&quot;developerName&quot;:&quot;Tes_Test&quot;,&quot;segmentOnSourceApiName&quot;:&quot;Tes_Individual__dlm&quot;,&quot;tokensMap&quot;:{&quot;dmoMap&quot;:{&quot;Tes_UnifiedIndividualNew__dlm&quot;:&quot;Tes_UnifiedIndividualNew__dlm&quot;}}}</entityPayload>
+    <masterLabel>Test</masterLabel>
+    <parentDataPackageKitDefinitionName xsi:nil="true"/>
+    <sourceObject>Tes_Test</sourceObject>
+    <sourceObjectType>MarketSegment</sourceObjectType>
+    <templateVersion>1</templateVersion>
+</DataKitObjectTemplate>

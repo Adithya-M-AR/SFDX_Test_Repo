@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<DataSrcDataModelFieldMap xmlns="http://soap.sforce.com/2006/04/metadata">
+    <filterApplied>false</filterApplied>
+    <filterOperationType>Equal</filterOperationType>
+    <masterLabel>Retail360_DatakitRetail360_Ingest_d2019c27_292d_4aad_82e7customer_idTes_ContactPointEmailPartyIdCwykCQcSpQtihNl</masterLabel>
+    <sourceField>Retail360_Ingest_customers_98D48F06.customer_id__c</sourceField>
+    <targetField>Tes_ContactPointEmail__dlm.PartyId__c</targetField>
+    <templateVersion>1</templateVersion>
+    <versionNumber>1.0</versionNumber>
+</DataSrcDataModelFieldMap>

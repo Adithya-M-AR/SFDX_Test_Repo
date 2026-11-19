@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ExtDataTranObjectTemplate xmlns="http://soap.sforce.com/2006/04/metadata">
+    <dataSourceObject>Retail360_Ingest_orders_7E72B3D4</dataSourceObject>
+    <externalDataTranObject>orders</externalDataTranObject>
+    <externalName>orders</externalName>
+    <masterLabel>orders</masterLabel>
+    <sourceObjectName>orders</sourceObjectName>
+    <templateVersion>1</templateVersion>
+</ExtDataTranObjectTemplate>

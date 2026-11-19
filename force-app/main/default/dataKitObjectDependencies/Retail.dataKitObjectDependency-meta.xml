@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<DataKitObjectDependency xmlns="http://soap.sforce.com/2006/04/metadata">
+    <dataPackageKitDef>Retail360_Datakit</dataPackageKitDef>
+    <developerName>Retail</developerName>
+    <masterLabel>Retail</masterLabel>
+    <sourceObject>Retail</sourceObject>
+    <sourceObjectType>DataSourceBundleDefinition</sourceObjectType>
+    <targetObject>Retail</targetObject>
+</DataKitObjectDependency>

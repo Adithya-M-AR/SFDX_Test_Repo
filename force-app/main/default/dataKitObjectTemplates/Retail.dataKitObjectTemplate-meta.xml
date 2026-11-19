@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<DataKitObjectTemplate xmlns="http://soap.sforce.com/2006/04/metadata" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+    <developerName xsi:nil="true"/>
+    <entityPayload>{&quot;dataConnectorIngestApiSourceName&quot;:&quot;Retail360_Ingest&quot;,&quot;dataConnectorIngestApiDeveloperName&quot;:&quot;Retail360_Ingest&quot;,&quot;dataConnectorIngestApiMasterLabel&quot;:&quot;Retail360_Ingest&quot;,&quot;externalDataConnectorDeveloperName&quot;:&quot;Retail360_Ingest_d2019c27_292d_4aad_82e7_5706f971221a&quot;,&quot;externalDataConnectorMasterLabel&quot;:&quot;Retail360_Ingest&quot;,&quot;subtype&quot;:&quot;&quot;,&quot;alias&quot;:null}</entityPayload>
+    <masterLabel>Retail</masterLabel>
+    <parentDataPackageKitDefinitionName xsi:nil="true"/>
+    <sourceObject>Retail</sourceObject>
+    <sourceObjectType>StreamingAppAndIngestionConnector</sourceObjectType>
+    <templateVersion>1</templateVersion>
+</DataKitObjectTemplate>

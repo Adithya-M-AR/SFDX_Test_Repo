@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<DataCalcInsightTemplate xmlns="http://soap.sforce.com/2006/04/metadata" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+    <builderExpression xsi:nil="true"/>
+    <creationType>Custom</creationType>
+    <dataspaceName>Retail360</dataspaceName>
+    <dataspacePrefix>Tes</dataspacePrefix>
+    <definitionType>CALCULATED_METRIC</definitionType>
+    <description xsi:nil="true"/>
+    <developerName>Tes_Engagement_Score</developerName>
+    <dialect>ANSI_SQL</dialect>
+    <expression>SELECT
+  Tes_Individual__dlm.Id__c AS IndividualId__c,
+  COUNT(Tes_Web_Engagement__dlm.event_id__c) AS EngagementScore__c
+FROM Tes_Web_Engagement__dlm
+JOIN Tes_ContactPointEmail__dlm
+  ON Tes_ContactPointEmail__dlm.EmailAddress__c = Tes_Web_Engagement__dlm.email__c
+JOIN Tes_Individual__dlm
+  ON Tes_Individual__dlm.Id__c = Tes_ContactPointEmail__dlm.PartyId__c
+GROUP BY Tes_Individual__dlm.Id__c</expression>
+    <masterLabel>Engagement_Score</masterLabel>
+    <scheduleInterval>1</scheduleInterval>
+    <scheduleStartDateTime>2026-10-15T07:00:00.000Z</scheduleStartDateTime>
+    <sourceObjectDevName>Tes_Engagement_Score</sourceObjectDevName>
+    <templateVersion>1</templateVersion>
+</DataCalcInsightTemplate>

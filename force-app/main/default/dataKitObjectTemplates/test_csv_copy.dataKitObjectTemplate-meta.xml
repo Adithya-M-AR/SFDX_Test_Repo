@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<DataKitObjectTemplate xmlns="http://soap.sforce.com/2006/04/metadata" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+    <developerName xsi:nil="true"/>
+    <entityPayload>{&quot;dataSpaceName&quot;:&quot;Retail360&quot;,&quot;type&quot;:&quot;DLO&quot;,&quot;developerName&quot;:&quot;Tes_DLO_test_csv_copy&quot;}</entityPayload>
+    <masterLabel>test_csv_copy__dll</masterLabel>
+    <parentDataPackageKitDefinitionName xsi:nil="true"/>
+    <sourceObject>0viWC0000006qlVYAQ</sourceObject>
+    <sourceObjectType>DataSpaceMember</sourceObjectType>
+    <templateVersion>1</templateVersion>
+</DataKitObjectTemplate>

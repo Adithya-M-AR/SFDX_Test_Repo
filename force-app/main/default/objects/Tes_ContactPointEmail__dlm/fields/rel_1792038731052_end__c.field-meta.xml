@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>rel_1792038731052_end__c</fullName>
+    <deleteConstraint>SetNull</deleteConstraint>
+    <label>Tes_ContactPointEmail_PartyId_map_Te_rel</label>
+    <referenceTo>Tes_Individual__dlm</referenceTo>
+    <relationshipLabel>Tes_ContactPointEmail_PartyId_map_Te_rel</relationshipLabel>
+    <relationshipName>rel_1792038731052_end</relationshipName>
+    <required>false</required>
+    <type>Lookup</type>
+</CustomField>

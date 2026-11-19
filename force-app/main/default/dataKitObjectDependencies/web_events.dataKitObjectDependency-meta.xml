@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<DataKitObjectDependency xmlns="http://soap.sforce.com/2006/04/metadata">
+    <dataPackageKitDef>Retail360_Datakit</dataPackageKitDef>
+    <developerName>web_events</developerName>
+    <masterLabel>web_events__dll</masterLabel>
+    <sourceObject>web_events1</sourceObject>
+    <sourceObjectType>DataSourceObject</sourceObjectType>
+    <targetObject>web_events</targetObject>
+</DataKitObjectDependency>

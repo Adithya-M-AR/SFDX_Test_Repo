@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<DataKitObjectDependency xmlns="http://soap.sforce.com/2006/04/metadata">
+    <dataPackageKitDef>Retail360_Datakit</dataPackageKitDef>
+    <developerName>Retail360_Ingest_orders_7E72B3D4</developerName>
+    <masterLabel>Retail360_Ingest_orders_7E72B3D4__dll</masterLabel>
+    <sourceObject>Retail360_Ingest_orders_7E72B3D4</sourceObject>
+    <sourceObjectType>DataSourceObject</sourceObjectType>
+    <targetObject>Retail360_Ingest_orders_7E72B3D4</targetObject>
+</DataKitObjectDependency>

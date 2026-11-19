@@ -12,6 +12,32 @@
         <members>Dedicated_CSVcsv__dlm.NAME__c</members>
         <members>Dedicated_CSVcsv__dlm.VAULT__c</members>
         <members>Dedicated_CSVcsv__dlm.cdp_sys_SourceVersion__c</members>
+        <members>Tes_ContactPointEmail__dlm.DataSourceId__c</members>
+        <members>Tes_ContactPointEmail__dlm.DataSourceObjectId__c</members>
+        <members>Tes_ContactPointEmail__dlm.EmailAddress__c</members>
+        <members>Tes_ContactPointEmail__dlm.Id__c</members>
+        <members>Tes_ContactPointEmail__dlm.PartyId__c</members>
+        <members>Tes_ContactPointEmail__dlm.rel_1792038731052_end__c</members>
+        <members>Tes_ContactPointEmail__dlm.rel_1792043698193_end__c</members>
+        <members>Tes_Individual__dlm.DataSourceId__c</members>
+        <members>Tes_Individual__dlm.DataSourceObjectId__c</members>
+        <members>Tes_Individual__dlm.FirstName__c</members>
+        <members>Tes_Individual__dlm.Id__c</members>
+        <members>Tes_Individual__dlm.LastName__c</members>
+        <members>Tes_Individual__dlm.rel_1792043694141_end__c</members>
+        <members>Tes_SalesOrder__dlm.DataSourceId__c</members>
+        <members>Tes_SalesOrder__dlm.DataSourceObjectId__c</members>
+        <members>Tes_SalesOrder__dlm.GrandTotalAmount__c</members>
+        <members>Tes_SalesOrder__dlm.Id__c</members>
+        <members>Tes_SalesOrder__dlm.PayerAccountId__c</members>
+        <members>Tes_SalesOrder__dlm.PurchaseOrderDate__c</members>
+        <members>Tes_Web_Engagement__dlm.DataSourceObject__c</members>
+        <members>Tes_Web_Engagement__dlm.DataSource__c</members>
+        <members>Tes_Web_Engagement__dlm.InternalOrganization__c</members>
+        <members>Tes_Web_Engagement__dlm.email__c</members>
+        <members>Tes_Web_Engagement__dlm.event_date__c</members>
+        <members>Tes_Web_Engagement__dlm.event_id__c</members>
+        <members>Tes_Web_Engagement__dlm.event_type__c</members>
         <members>dlrs__LookupChild__c.dlrs__Amount__c</members>
         <members>dlrs__LookupChild__c.dlrs__Color__c</members>
         <members>dlrs__LookupChild__c.dlrs__Description2__c</members>
@@ -24,18 +50,30 @@
     </types>
     <types>
         <members>Dedicated_CSVcsv__dlm</members>
+        <members>Tes_ContactPointEmail__dlm</members>
+        <members>Tes_Individual__dlm</members>
+        <members>Tes_SalesOrder__dlm</members>
+        <members>Tes_Web_Engagement__dlm</members>
         <members>Unrelated_test_Object__c</members>
         <name>CustomObject</name>
     </types>
     <types>
         <members>LEARN_CI_LifetimeValue1</members>
+        <members>Tes_Engagement_Score</members>
+        <members>Tes_Lifetime_Value</members>
         <name>DataCalcInsightTemplate</name>
     </types>
     <types>
         <members>Dedicated_CSVcsv1</members>
+        <members>Retail</members>
+        <members>Retail360_Ingest_customers_98D48F06</members>
+        <members>Retail360_Ingest_orders_7E72B3D4</members>
+        <members>UploadedFiles</members>
         <members>UploadedFiles2</members>
         <members>UploadedFiles3</members>
         <members>test_csv1</members>
+        <members>test_csv_copy</members>
+        <members>web_events</members>
         <name>DataKitObjectDependency</name>
     </types>
     <types>
@@ -43,8 +81,21 @@
         <members>Learn_Activation_Target1</members>
         <members>Learn_Segment1</members>
         <members>Learn_Test17915433722621</members>
+        <members>Retail</members>
+        <members>Retail360_Activation1792059566671</members>
+        <members>Retail360_DataTransform1</members>
+        <members>Retail360_Ingest_customers_98D48F06</members>
+        <members>Retail360_Ingest_orders_7E72B3D4</members>
+        <members>Retail360_Target</members>
+        <members>Tes_Engaged_Buyers</members>
+        <members>Tes_High_Value</members>
+        <members>Tes_High_Value_Engaged</members>
+        <members>Tes_Individual_New</members>
+        <members>Tes_Test</members>
         <members>UploadedFiles</members>
         <members>test_csv1</members>
+        <members>test_csv_copy</members>
+        <members>web_events</members>
         <name>DataKitObjectTemplate</name>
     </types>
     <types>
@@ -52,6 +103,28 @@
         <name>DataPackageKitDefinition</name>
     </types>
     <types>
+        <members>Retail360_Datakit_1792068641818</members>
+        <members>Retail360_Datakit_1792068641991</members>
+        <members>Retail360_Datakit_1792068642161</members>
+        <members>Retail360_Datakit_1792069552197</members>
+        <members>Retail360_Datakit_1792552407649</members>
+        <members>Retail360_Datakit_1792552407844</members>
+        <members>Retail360_Datakit_1792552920105</members>
+        <members>Retail360_Datakit_1792552921350</members>
+        <members>Retail360_Datakit_1792552923136</members>
+        <members>Retail360_Datakit_1792553610950</members>
+        <members>Retail360_Datakit_1792553611174</members>
+        <members>Retail360_Datakit_1792553612074</members>
+        <members>Retail360_Datakit_1792554490015</members>
+        <members>Retail360_Datakit_1792554490485</members>
+        <members>Retail360_Datakit_1792554490944</members>
+        <members>Retail360_Datakit_1792554491553</members>
+        <members>Retail360_Datakit_1792554505489</members>
+        <members>Retail360_Datakit_1792554505692</members>
+        <members>Retail360_Datakit_1792554534811</members>
+        <members>Retail360_Datakit_1792554577712</members>
+        <members>Retail360_Datakit_1792554596803</members>
+        <members>Retail360_Datakit_1792555384909</members>
         <members>Test_Learn_1795079495311</members>
         <members>Test_Learn_1795079495474</members>
         <members>Test_Learn_1795079495614</members>
@@ -66,19 +139,50 @@
         <name>DataPackageKitObject</name>
     </types>
     <types>
+        <members>Retail360_Ingest_d2019c27_292d_4aad_82e7_5706f971221a</members>
         <members>UploadedFiles</members>
+        <members>test_csv_copy</members>
         <name>DataSource</name>
     </types>
     <types>
+        <members>File</members>
+        <members>Retail</members>
         <members>adithya</members>
         <name>DataSourceBundleDefinition</name>
     </types>
     <types>
         <members>Dedicated_CSVcsv2</members>
+        <members>Retail360_Ingest_customers_98D48F06</members>
+        <members>Retail360_Ingest_orders_7E72B3D4</members>
         <members>test_csv2</members>
+        <members>test_csv_copy</members>
+        <members>web_events1</members>
         <name>DataSourceObject</name>
     </types>
     <types>
+        <members>Retail360_DatakitRetail360_Ingest_d2019c27_292d_4aad_82e7DataSourceObjectTes_ContactPointEmailDataSourceObjectIdAHMtehfNPbDFWkT</members>
+        <members>Retail360_DatakitRetail360_Ingest_d2019c27_292d_4aad_82e7DataSourceObjectTes_IndividualDataSourceObjectIdISENSjDXKZaCZZN</members>
+        <members>Retail360_DatakitRetail360_Ingest_d2019c27_292d_4aad_82e7DataSourceObjectTes_SalesOrderDataSourceObjectIdZFNSHKXBamvuoCC</members>
+        <members>Retail360_DatakitRetail360_Ingest_d2019c27_292d_4aad_82e7DataSourceTes_ContactPointEmailDataSourceIdhwNhmFVsDTxpjxP</members>
+        <members>Retail360_DatakitRetail360_Ingest_d2019c27_292d_4aad_82e7DataSourceTes_IndividualDataSourceIdASTFEtnLdorYcpL</members>
+        <members>Retail360_DatakitRetail360_Ingest_d2019c27_292d_4aad_82e7DataSourceTes_SalesOrderDataSourceIdqgqyHMKrxFLMLuK</members>
+        <members>Retail360_DatakitRetail360_Ingest_d2019c27_292d_4aad_82e7amountTes_SalesOrderGrandTotalAmountYpvXchlNFxhylZm</members>
+        <members>Retail360_DatakitRetail360_Ingest_d2019c27_292d_4aad_82e7customer_idTes_ContactPointEmailIduyJTmBlITBXrLCW</members>
+        <members>Retail360_DatakitRetail360_Ingest_d2019c27_292d_4aad_82e7customer_idTes_ContactPointEmailPartyIdCwykCQcSpQtihNl</members>
+        <members>Retail360_DatakitRetail360_Ingest_d2019c27_292d_4aad_82e7customer_idTes_IndividualIdRRUjlThZeTPGYQJ</members>
+        <members>Retail360_DatakitRetail360_Ingest_d2019c27_292d_4aad_82e7customer_idTes_SalesOrderPayerAccountIdjnMGxaWlxpVxSZZ</members>
+        <members>Retail360_DatakitRetail360_Ingest_d2019c27_292d_4aad_82e7emailTes_ContactPointEmailEmailAddressYETKodybaVvBLlt</members>
+        <members>Retail360_DatakitRetail360_Ingest_d2019c27_292d_4aad_82e7first_nameTes_IndividualFirstNameQfYxSHNjFQIuTcK</members>
+        <members>Retail360_DatakitRetail360_Ingest_d2019c27_292d_4aad_82e7last_nameTes_IndividualLastNameEMsNgDJypzJYbHf</members>
+        <members>Retail360_DatakitRetail360_Ingest_d2019c27_292d_4aad_82e7order_dateTes_SalesOrderPurchaseOrderDateiBWEAgmhNuqLPvd</members>
+        <members>Retail360_DatakitRetail360_Ingest_d2019c27_292d_4aad_82e7order_idTes_SalesOrderIdDgZjHhMxibQTBVv</members>
+        <members>Retail360_DatakitUploadedFilesDataSourceObjectTes_Web_EngagementDataSourceObjectxmIdeAMNmoTnDtV</members>
+        <members>Retail360_DatakitUploadedFilesDataSourceTes_Web_EngagementDataSourcewsFgDPwYrJnNZoq</members>
+        <members>Retail360_DatakitUploadedFilesInternalOrganizationTes_Web_EngagementInternalOrganizationikpRaYhqIDDhJwi</members>
+        <members>Retail360_DatakitUploadedFilesemailTes_Web_EngagementemailMhmYnLqoHNOzkJN</members>
+        <members>Retail360_DatakitUploadedFilesevent_dateTes_Web_Engagementevent_datelFlYNZzNctslHnh</members>
+        <members>Retail360_DatakitUploadedFilesevent_idTes_Web_Engagementevent_idocVjbwHzvPpYvZl</members>
+        <members>Retail360_DatakitUploadedFilesevent_typeTes_Web_Engagementevent_typeVGhalnVpsyCqZhG</members>
         <members>Test_LearnUploadedFilesARMDedicated_CSVcsvARMKlflJbpiFdciFQX</members>
         <members>Test_LearnUploadedFilesCODESCANDedicated_CSVcsvCODESCANvyfJZbAruTCNXHk</members>
         <members>Test_LearnUploadedFilesCityIndividualCityHRLtZDVtpQIAdmx</members>
@@ -107,8 +211,16 @@
     </types>
     <types>
         <members>Dedicated_CSVcsv_1795079497900</members>
+        <members>Retail360_Ingest_customers_98D48F06_1792552924296</members>
+        <members>Retail360_Ingest_orders_7E72B3D4_1792552922247</members>
         <members>test_csv_1795079499183</members>
+        <members>web_events_1792553612641</members>
         <name>DataStreamTemplate</name>
+    </types>
+    <types>
+        <members>customers</members>
+        <members>orders</members>
+        <name>ExtDataTranObjectTemplate</name>
     </types>
     <types>
         <members>Unrelated_test_Object__c.All</members>

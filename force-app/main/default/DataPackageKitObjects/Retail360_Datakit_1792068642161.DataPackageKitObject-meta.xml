@@ -1,7 +1,0 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<DataPackageKitObject xmlns="http://soap.sforce.com/2006/04/metadata">
-    <masterLabel>Retail360_Datakit</masterLabel>
-    <parentDataPackageKitDefinitionName>Retail360_Datakit</parentDataPackageKitDefinitionName>
-    <referenceObjectName>Tes_Individual__dlm</referenceObjectName>
-    <referenceObjectType>MktDataModelObject</referenceObjectType>
-</DataPackageKitObject>

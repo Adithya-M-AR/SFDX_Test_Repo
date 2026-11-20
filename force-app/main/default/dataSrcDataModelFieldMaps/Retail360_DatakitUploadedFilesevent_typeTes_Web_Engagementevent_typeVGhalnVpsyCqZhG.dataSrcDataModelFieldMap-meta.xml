@@ -1,9 +1,0 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<DataSrcDataModelFieldMap xmlns="http://soap.sforce.com/2006/04/metadata">
-    <filterApplied>false</filterApplied>
-    <masterLabel>Retail360_DatakitUploadedFilesevent_typeTes_Web_Engagementevent_typeVGhalnVpsyCqZhG</masterLabel>
-    <sourceField>web_events1.event_type__c</sourceField>
-    <targetField>Tes_Web_Engagement__dlm.event_type__c</targetField>
-    <templateVersion>1</templateVersion>
-    <versionNumber>1.0</versionNumber>
-</DataSrcDataModelFieldMap>

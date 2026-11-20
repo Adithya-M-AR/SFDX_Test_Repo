@@ -1,9 +1,0 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<DataKitObjectDependency xmlns="http://soap.sforce.com/2006/04/metadata">
-    <dataPackageKitDef>Replication</dataPackageKitDef>
-    <developerName>BotDefinition_Home</developerName>
-    <masterLabel>BotDefinition_Home__dll</masterLabel>
-    <sourceObject>BotDefinition_Home1</sourceObject>
-    <sourceObjectType>DataSourceObject</sourceObjectType>
-    <targetObject>BotDefinition_Home</targetObject>
-</DataKitObjectDependency>

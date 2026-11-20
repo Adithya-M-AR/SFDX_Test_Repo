@@ -1,9 +1,0 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<DataKitObjectDependency xmlns="http://soap.sforce.com/2006/04/metadata">
-    <dataPackageKitDef>Replication</dataPackageKitDef>
-    <developerName>CopilotAnalyticsCalculator</developerName>
-    <masterLabel>CopilotAnalyticsCalculator__dll</masterLabel>
-    <sourceObject>CopilotAnalyticsCalculator1</sourceObject>
-    <sourceObjectType>DataSourceObject</sourceObjectType>
-    <targetObject>CopilotAnalyticsCalculator</targetObject>
-</DataKitObjectDependency>

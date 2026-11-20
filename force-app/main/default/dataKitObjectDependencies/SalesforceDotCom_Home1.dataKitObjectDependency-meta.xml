@@ -1,9 +1,0 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<DataKitObjectDependency xmlns="http://soap.sforce.com/2006/04/metadata">
-    <dataPackageKitDef>Replication</dataPackageKitDef>
-    <developerName>SalesforceDotCom_Home1</developerName>
-    <masterLabel>Salesforce Connector Keystone org Home</masterLabel>
-    <sourceObject>BotDefinition_Home_1794476089234</sourceObject>
-    <sourceObjectType>DataStreamTemplate</sourceObjectType>
-    <targetObject>SalesforceDotCom_Home</targetObject>
-</DataKitObjectDependency>

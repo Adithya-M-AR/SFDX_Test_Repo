@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<DataKitObjectDependency xmlns="http://soap.sforce.com/2006/04/metadata">
+    <dataPackageKitDef>Test_Learn</dataPackageKitDef>
+    <developerName>test_csv1</developerName>
+    <masterLabel>test_csv__dll</masterLabel>
+    <sourceObject>test_csv2</sourceObject>
+    <sourceObjectType>DataSourceObject</sourceObjectType>
+    <targetObject>test_csv1</targetObject>
+</DataKitObjectDependency>

@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<DataCalcInsightTemplate xmlns="http://soap.sforce.com/2006/04/metadata" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+    <builderExpression xsi:nil="true"/>
+    <creationType>Custom</creationType>
+    <dataspaceName>default</dataspaceName>
+    <dataspacePrefix xsi:nil="true"/>
+    <definitionType>CALCULATED_METRIC</definitionType>
+    <description xsi:nil="true"/>
+    <developerName>Test_Insight</developerName>
+    <dialect>DC_SQL</dialect>
+    <expression>SELECT
+    {Source:Individual__dlm}.{Source_Field:ssot__Id__c} AS {CI_Target_Field:IndividualId__c},
+    AVG({Source:Individual__dlm}.{Source_Field:Purchase_Amount__c}) AS {CI_Target_Field:AvgPurchaseAmount__c},
+    COUNT({Source:Individual__dlm}.{Source_Field:ssot__Id__c}) AS {CI_Target_Field:PurchaseCount__c}
+FROM
+    {Source:ssot__Individual__dlm} AS {Source:Individual__dlm}
+GROUP BY
+    {Source:Individual__dlm}.{Source_Field:ssot__Id__c}</expression>
+    <masterLabel>Test_Insight</masterLabel>
+    <originalExpression>SELECT
+    Individual__dlm.ssot__Id__c AS IndividualId__c,
+    AVG(Individual__dlm.Purchase_Amount__c) AS AvgPurchaseAmount__c,
+    COUNT(Individual__dlm.ssot__Id__c) AS PurchaseCount__c
+FROM
+    ssot__Individual__dlm AS Individual__dlm
+GROUP BY
+    Individual__dlm.ssot__Id__c</originalExpression>
+    <scheduleInterval>0</scheduleInterval>
+    <sourceObjectDevName>Test_Insight</sourceObjectDevName>
+    <templateVersion>1</templateVersion>
+    <tokenMap>{&quot;{Source:Individual__dlm}&quot;:&quot;Individual__dlm&quot;,&quot;{Source:ssot__Individual__dlm}&quot;:&quot;IndividualDmo&quot;,&quot;{CI_Target_Field:IndividualId__c}&quot;:&quot;IndividualId__c&quot;,&quot;{CI_Target_Field:AvgPurchaseAmount__c}&quot;:&quot;AvgPurchaseAmount__c&quot;,&quot;{CI_Target_Field:PurchaseCount__c}&quot;:&quot;PurchaseCount__c&quot;,&quot;{Source_Field:ssot__Id__c}&quot;:&quot;ssot__Id__c&quot;,&quot;{Source_Field:Purchase_Amount__c}&quot;:&quot;Purchase_Amount__c&quot;}</tokenMap>
+    <tokenizationVersion>1</tokenizationVersion>
+</DataCalcInsightTemplate>

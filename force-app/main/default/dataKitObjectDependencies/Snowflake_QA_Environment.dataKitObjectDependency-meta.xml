@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<DataKitObjectDependency xmlns="http://soap.sforce.com/2006/04/metadata">
+    <dataPackageKitDef>dk_test_repro</dataPackageKitDef>
+    <developerName>Snowflake_QA_Environment</developerName>
+    <masterLabel>Snowflake QA Environment</masterLabel>
+    <sourceObject>Consumer_Banking_Campaign_1795498616559</sourceObject>
+    <sourceObjectType>DataStreamTemplate</sourceObjectType>
+    <targetObject>Snowflake_QA_Environment</targetObject>
+</DataKitObjectDependency>

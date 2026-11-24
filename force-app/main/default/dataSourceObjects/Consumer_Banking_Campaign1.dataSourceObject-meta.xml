@@ -1,0 +1,182 @@
+<?xml version="1.0" encoding="UTF-8"?><DataSourceObject xmlns="http://soap.sforce.com/2006/04/metadata" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+    <accelerationEnabled>YES</accelerationEnabled>
+    <dataSource>Snowflake_QA_Environment</dataSource>
+    <dataSourceFields>
+        <fullName>campaign_id</fullName>
+        <datatype>S</datatype>
+        <definitionCreationType>Custom</definitionCreationType>
+        <externalDataType>VARCHAR</externalDataType>
+        <externalName>CAMPAIGN_ID</externalName>
+        <fieldFormula>sourceField['CAMPAIGN_ID']</fieldFormula>
+        <isDataRequired>false</isDataRequired>
+        <isEventDate>false</isEventDate>
+        <isFormula>false</isFormula>
+        <isKeyQualifierFromSource>false</isKeyQualifierFromSource>
+        <isRecordModified>false</isRecordModified>
+        <masterLabel>CAMPAIGN_ID</masterLabel>
+        <primaryIndexOrder>1</primaryIndexOrder>
+        <sequence xsi:nil="true"/>
+        <usageTag>NONE</usageTag>
+        <versionNumber xsi:nil="true"/>
+    </dataSourceFields>
+    <dataSourceFields>
+        <fullName>campaign_name</fullName>
+        <datatype>S</datatype>
+        <definitionCreationType>Custom</definitionCreationType>
+        <externalDataType>VARCHAR</externalDataType>
+        <externalName>CAMPAIGN_NAME</externalName>
+        <fieldFormula>sourceField['CAMPAIGN_NAME']</fieldFormula>
+        <isDataRequired>false</isDataRequired>
+        <isEventDate>false</isEventDate>
+        <isFormula>false</isFormula>
+        <isKeyQualifierFromSource>false</isKeyQualifierFromSource>
+        <isRecordModified>false</isRecordModified>
+        <masterLabel>CAMPAIGN_NAME</masterLabel>
+        <sequence xsi:nil="true"/>
+        <usageTag>NONE</usageTag>
+        <versionNumber xsi:nil="true"/>
+    </dataSourceFields>
+    <dataSourceFields>
+        <fullName>channel</fullName>
+        <datatype>S</datatype>
+        <definitionCreationType>Custom</definitionCreationType>
+        <externalDataType>VARCHAR</externalDataType>
+        <externalName>CHANNEL</externalName>
+        <fieldFormula>sourceField['CHANNEL']</fieldFormula>
+        <isDataRequired>false</isDataRequired>
+        <isEventDate>false</isEventDate>
+        <isFormula>false</isFormula>
+        <isKeyQualifierFromSource>false</isKeyQualifierFromSource>
+        <isRecordModified>false</isRecordModified>
+        <masterLabel>CHANNEL</masterLabel>
+        <sequence xsi:nil="true"/>
+        <usageTag>NONE</usageTag>
+        <versionNumber xsi:nil="true"/>
+    </dataSourceFields>
+    <dataSourceFields>
+        <fullName>DataSource</fullName>
+        <datatype>S</datatype>
+        <definitionCreationType>System</definitionCreationType>
+        <externalName>DataSource</externalName>
+        <fieldFormula>Snowflake_QA_Environment</fieldFormula>
+        <isDataRequired>false</isDataRequired>
+        <isEventDate>false</isEventDate>
+        <isFormula>true</isFormula>
+        <isKeyQualifierFromSource>false</isKeyQualifierFromSource>
+        <isRecordModified>false</isRecordModified>
+        <masterLabel>Data Source</masterLabel>
+        <sequence xsi:nil="true"/>
+        <usageTag>NONE</usageTag>
+        <versionNumber xsi:nil="true"/>
+    </dataSourceFields>
+    <dataSourceFields>
+        <fullName>DataSourceObject</fullName>
+        <datatype>S</datatype>
+        <definitionCreationType>System</definitionCreationType>
+        <externalName>DataSourceObject</externalName>
+        <fieldFormula>SF_DB_QA_PUBLIC</fieldFormula>
+        <isDataRequired>false</isDataRequired>
+        <isEventDate>false</isEventDate>
+        <isFormula>true</isFormula>
+        <isKeyQualifierFromSource>false</isKeyQualifierFromSource>
+        <isRecordModified>false</isRecordModified>
+        <masterLabel>Data Source Object</masterLabel>
+        <sequence xsi:nil="true"/>
+        <usageTag>NONE</usageTag>
+        <versionNumber xsi:nil="true"/>
+    </dataSourceFields>
+    <dataSourceFields>
+        <fullName>end_date</fullName>
+        <datatype>D</datatype>
+        <dateFormat>MM/dd/yyyy</dateFormat>
+        <definitionCreationType>Custom</definitionCreationType>
+        <externalDataType>DATE</externalDataType>
+        <externalName>END_DATE</externalName>
+        <fieldFormula>sourceField['END_DATE']</fieldFormula>
+        <isDataRequired>false</isDataRequired>
+        <isEventDate>false</isEventDate>
+        <isFormula>false</isFormula>
+        <isKeyQualifierFromSource>false</isKeyQualifierFromSource>
+        <isRecordModified>false</isRecordModified>
+        <masterLabel>END_DATE</masterLabel>
+        <sequence xsi:nil="true"/>
+        <usageTag>NONE</usageTag>
+        <versionNumber>1.0</versionNumber>
+    </dataSourceFields>
+    <dataSourceFields>
+        <fullName>InternalOrganization</fullName>
+        <datatype>S</datatype>
+        <definitionCreationType>System</definitionCreationType>
+        <externalName>InternalOrganization</externalName>
+        <isDataRequired>false</isDataRequired>
+        <isEventDate>false</isEventDate>
+        <isFormula>true</isFormula>
+        <isKeyQualifierFromSource>false</isKeyQualifierFromSource>
+        <isRecordModified>false</isRecordModified>
+        <masterLabel>Internal Organization</masterLabel>
+        <sequence xsi:nil="true"/>
+        <usageTag>NONE</usageTag>
+        <versionNumber xsi:nil="true"/>
+    </dataSourceFields>
+    <dataSourceFields>
+        <fullName>segment</fullName>
+        <datatype>S</datatype>
+        <definitionCreationType>Custom</definitionCreationType>
+        <externalDataType>VARCHAR</externalDataType>
+        <externalName>SEGMENT</externalName>
+        <fieldFormula>sourceField['SEGMENT']</fieldFormula>
+        <isDataRequired>false</isDataRequired>
+        <isEventDate>false</isEventDate>
+        <isFormula>false</isFormula>
+        <isKeyQualifierFromSource>false</isKeyQualifierFromSource>
+        <isRecordModified>false</isRecordModified>
+        <masterLabel>SEGMENT</masterLabel>
+        <sequence xsi:nil="true"/>
+        <usageTag>NONE</usageTag>
+        <versionNumber xsi:nil="true"/>
+    </dataSourceFields>
+    <dataSourceFields>
+        <fullName>start_date</fullName>
+        <datatype>D</datatype>
+        <dateFormat>MM/dd/yyyy</dateFormat>
+        <definitionCreationType>Custom</definitionCreationType>
+        <externalDataType>DATE</externalDataType>
+        <externalName>START_DATE</externalName>
+        <fieldFormula>sourceField['START_DATE']</fieldFormula>
+        <isDataRequired>false</isDataRequired>
+        <isEventDate>false</isEventDate>
+        <isFormula>false</isFormula>
+        <isKeyQualifierFromSource>false</isKeyQualifierFromSource>
+        <isRecordModified>false</isRecordModified>
+        <masterLabel>START_DATE</masterLabel>
+        <sequence xsi:nil="true"/>
+        <usageTag>NONE</usageTag>
+        <versionNumber>1.0</versionNumber>
+    </dataSourceFields>
+    <dataSourceFields>
+        <fullName>status</fullName>
+        <datatype>S</datatype>
+        <definitionCreationType>Custom</definitionCreationType>
+        <externalDataType>VARCHAR</externalDataType>
+        <externalName>STATUS</externalName>
+        <fieldFormula>sourceField['STATUS']</fieldFormula>
+        <isDataRequired>false</isDataRequired>
+        <isEventDate>false</isEventDate>
+        <isFormula>false</isFormula>
+        <isKeyQualifierFromSource>false</isKeyQualifierFromSource>
+        <isRecordModified>false</isRecordModified>
+        <masterLabel>STATUS</masterLabel>
+        <sequence xsi:nil="true"/>
+        <usageTag>NONE</usageTag>
+        <versionNumber xsi:nil="true"/>
+    </dataSourceFields>
+    <externalDatabaseName>SF_DB_QA</externalDatabaseName>
+    <externalObjectName>CONSUMER_BANKING_CAMPAIGN</externalObjectName>
+    <externalRecordIdentifier>CONSUMER_BANKING_CAMPAIGN</externalRecordIdentifier>
+    <externalSchemaName>PUBLIC</externalSchemaName>
+    <masterLabel>Consumer Banking Campaign</masterLabel>
+    <objectType>Object</objectType>
+    <sourceObject>Consumer_Banking_Campaign__dll</sourceObject>
+    <storageType>EXTERNAL</storageType>
+    <templateVersion>1</templateVersion>
+</DataSourceObject>

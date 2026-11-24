@@ -24,38 +24,49 @@
         <name>DataCalcInsightTemplate</name>
     </types>
     <types>
+        <members>Consumer_Banking_Campaign</members>
         <members>Dedicated_CSVcsv1</members>
+        <members>Snowflake_QA_Environment</members>
         <members>UploadedFiles2</members>
         <members>UploadedFiles3</members>
         <members>test_csv1</members>
         <name>DataKitObjectDependency</name>
     </types>
     <types>
+        <members>Consumer_Banking_Campaign</members>
         <members>Dedicated_CSVcsv1</members>
         <members>Learn_Activation_Target1</members>
         <members>Learn_Segment1</members>
         <members>Learn_Test17915433722621</members>
+        <members>Snowflake_QA_Environment</members>
         <members>UploadedFiles</members>
         <members>test_csv1</members>
         <name>DataKitObjectTemplate</name>
     </types>
     <types>
         <members>Test_Learn</members>
+        <members>dk_test_repro</members>
         <name>DataPackageKitDefinition</name>
     </types>
     <types>
         <members>Test_Learn_1795158171164</members>
+        <members>dk_test_repro_1795498615761</members>
+        <members>dk_test_repro_1795498615902</members>
+        <members>dk_test_repro_1795498616541</members>
         <name>DataPackageKitObject</name>
     </types>
     <types>
+        <members>Snowflake_QA_Environment</members>
         <members>UploadedFiles</members>
         <name>DataSource</name>
     </types>
     <types>
+        <members>BundleTest</members>
         <members>adithya</members>
         <name>DataSourceBundleDefinition</name>
     </types>
     <types>
+        <members>Consumer_Banking_Campaign1</members>
         <members>Dedicated_CSVcsv2</members>
         <members>test_csv2</members>
         <name>DataSourceObject</name>
@@ -70,6 +81,7 @@
         <name>DataSrcDataModelFieldMap</name>
     </types>
     <types>
+        <members>Consumer_Banking_Campaign_1795498616559</members>
         <members>Dedicated_CSVcsv_1795079497900</members>
         <members>test_csv_1795079499183</members>
         <name>DataStreamTemplate</name>

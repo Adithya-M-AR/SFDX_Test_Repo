@@ -13,6 +13,7 @@
         <members>Dedicated_CSVcsv__dlm.VAULT__c</members>
         <members>Dedicated_CSVcsv__dlm.cdp_sys_SourceVersion__c</members>
         <members>ssot__Individual__dlm.ExternalId__c</members>
+        <members>ssot__Individual__dlm.Loyalty_Tier__c</members>
         <name>CustomField</name>
     </types>
     <types>
@@ -20,13 +21,16 @@
         <name>CustomObject</name>
     </types>
     <types>
+        <members>CI_tier_score</members>
         <members>Test_Insight</members>
         <name>DataCalcInsightTemplate</name>
     </types>
     <types>
         <members>Consumer_Banking_Campaign</members>
+        <members>Customerscsv</members>
         <members>Dedicated_CSVcsv1</members>
         <members>Snowflake_QA_Environment</members>
+        <members>UploadedFiles</members>
         <members>UploadedFiles2</members>
         <members>UploadedFiles3</members>
         <members>test_csv1</members>
@@ -34,6 +38,7 @@
     </types>
     <types>
         <members>Consumer_Banking_Campaign</members>
+        <members>Customerscsv</members>
         <members>Dedicated_CSVcsv1</members>
         <members>Learn_Activation_Target1</members>
         <members>Learn_Segment1</members>
@@ -44,11 +49,18 @@
         <name>DataKitObjectTemplate</name>
     </types>
     <types>
+        <members>Random_Test</members>
         <members>Test_Learn</members>
         <members>dk_test_repro</members>
         <name>DataPackageKitDefinition</name>
     </types>
     <types>
+        <members>Random_Test_1795756290778</members>
+        <members>Random_Test_1795756290910</members>
+        <members>Random_Test_1795756291074</members>
+        <members>Random_Test_1795756291206</members>
+        <members>Random_Test_1795756291640</members>
+        <members>Random_Test_1795756310377</members>
         <members>Test_Learn_1795158171164</members>
         <members>dk_test_repro_1795498615761</members>
         <members>dk_test_repro_1795498615902</members>
@@ -62,16 +74,31 @@
     </types>
     <types>
         <members>BundleTest</members>
+        <members>TestRandom</members>
         <members>adithya</members>
         <name>DataSourceBundleDefinition</name>
     </types>
     <types>
         <members>Consumer_Banking_Campaign1</members>
+        <members>Customerscsv1</members>
         <members>Dedicated_CSVcsv2</members>
         <members>test_csv2</members>
         <name>DataSourceObject</name>
     </types>
     <types>
+        <members>Random_TestUploadedFilesDataSourceContactPointEmailDataSourceIdKQseAVyJhOyNRBV</members>
+        <members>Random_TestUploadedFilesDataSourceIndividualDataSourceIdefFGiTrFBjgrFnb</members>
+        <members>Random_TestUploadedFilesDataSourceObjectContactPointEmailDataSourceObjectIdtPHLgYrDBiogVfj</members>
+        <members>Random_TestUploadedFilesDataSourceObjectIndividualDataSourceObjectIdvnzdNZQqUOkrxew</members>
+        <members>Random_TestUploadedFilesEmailContactPointEmailEmailAddresspvuYMXIDunOrJXS</members>
+        <members>Random_TestUploadedFilesFirst_NameIndividualFirstNameEjHWiWJOPCnTltB</members>
+        <members>Random_TestUploadedFilesInternalOrganizationContactPointEmailInternalOrganizationIdoXuqaMBYwjjvWso</members>
+        <members>Random_TestUploadedFilesInternalOrganizationIndividualInternalOrganizationIdlpklzIRxHsCmjUA</members>
+        <members>Random_TestUploadedFilesLast_NameIndividualLastNameDcNDXSueniywcCF</members>
+        <members>Random_TestUploadedFilesLoyalty_TierIndividualLoyalty_TierzxJjQMFCDspzJlU</members>
+        <members>Random_TestUploadedFilesRecord_IdContactPointEmailIdndpfecNlYGaQpie</members>
+        <members>Random_TestUploadedFilesRecord_IdContactPointEmailPartyIdBiNEKcUBsPlPBtB</members>
+        <members>Random_TestUploadedFilesRecord_IdIndividualIddZFWncsEnepMJKf</members>
         <members>Test_LearnUploadedFilesDataSourceIndividualDataSourceIdlfaNctoemGJnkta</members>
         <members>Test_LearnUploadedFilesDataSourceObjectIndividualDataSourceObjectIdVCMDaCdZyexiNFt</members>
         <members>Test_LearnUploadedFilesExternalIdIndividualExternalIdmOaqwhCRJyGSISW</members>
@@ -82,6 +109,7 @@
     </types>
     <types>
         <members>Consumer_Banking_Campaign_1795498616559</members>
+        <members>Customerscsv_1795756292201</members>
         <members>Dedicated_CSVcsv_1795079497900</members>
         <members>test_csv_1795079499183</members>
         <name>DataStreamTemplate</name>

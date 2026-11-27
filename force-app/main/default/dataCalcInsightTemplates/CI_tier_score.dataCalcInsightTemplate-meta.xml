@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<DataCalcInsightTemplate xmlns="http://soap.sforce.com/2006/04/metadata" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+    <builderExpression xsi:nil="true"/>
+    <creationType>Custom</creationType>
+    <dataspaceName>default</dataspaceName>
+    <dataspacePrefix xsi:nil="true"/>
+    <definitionType>CALCULATED_METRIC</definitionType>
+    <description xsi:nil="true"/>
+    <developerName>CI_tier_score</developerName>
+    <dialect>DC_SQL</dialect>
+    <expression>SELECT ssot__Id__c AS Individual_Id__c,
+       MAX(CASE
+         WHEN Loyalty_Tier__c = &apos;Gold&apos; THEN 100
+         WHEN Loyalty_Tier__c = &apos;Silver&apos; THEN 50
+         ELSE 10
+       END) AS Tier_Score__c
+FROM ssot__Individual__dlm
+GROUP BY ssot__Id__c</expression>
+    <masterLabel>CI_tier_score</masterLabel>
+    <scheduleInterval>0</scheduleInterval>
+    <sourceObjectDevName>CI_tier_score</sourceObjectDevName>
+    <templateVersion>1</templateVersion>
+</DataCalcInsightTemplate>

@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<DataStreamTemplate xmlns="http://soap.sforce.com/2006/04/metadata">
+    <dataSourceBundleDefinition>Test</dataSourceBundleDefinition>
+    <dataSourceObject>CONSUMER_BANKING_CAMPAIGN1</dataSourceObject>
+    <masterLabel>CONSUMER_BANKING_CAMPAIGN</masterLabel>
+    <objectCategory>Salesforce_SFDCReferenceModel_0_93.Profile</objectCategory>
+    <refreshFrequency>DAILY</refreshFrequency>
+    <refreshHours>6</refreshHours>
+    <refreshMode>FULL_REFRESH</refreshMode>
+    <sourceObjectName>CONSUMER_BANKING_CAMPAIGN</sourceObjectName>
+    <streamType>DIRECT_ACCESS_ACCELERATED</streamType>
+    <templateVersion>1</templateVersion>
+</DataStreamTemplate>

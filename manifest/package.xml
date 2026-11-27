@@ -1,6 +1,17 @@
 <?xml version="1.0" encoding="UTF-8"?><Package xmlns="http://soap.sforce.com/2006/04/metadata">
     <version>68.0</version>
     <types>
+        <members>Campaign_Engagement__dlm.DataSourceObject__c</members>
+        <members>Campaign_Engagement__dlm.DataSource__c</members>
+        <members>Campaign_Engagement__dlm.InternalOrganization__c</members>
+        <members>Campaign_Engagement__dlm.campaign_id__c</members>
+        <members>Campaign_Engagement__dlm.campaign_name__c</members>
+        <members>Campaign_Engagement__dlm.channel__c</members>
+        <members>Campaign_Engagement__dlm.engagement_date__c</members>
+        <members>Campaign_Engagement__dlm.record_id__c</members>
+        <members>Campaign_Engagement__dlm.rel_1795783533279_end__c</members>
+        <members>Campaign_Engagement__dlm.response_amount__c</members>
+        <members>Campaign_Engagement__dlm.status__c</members>
         <members>Dedicated_CSVcsv__dlm.ARM__c</members>
         <members>Dedicated_CSVcsv__dlm.CODESCAN__c</members>
         <members>Dedicated_CSVcsv__dlm.DataSourceObject__c</members>
@@ -12,20 +23,24 @@
         <members>Dedicated_CSVcsv__dlm.NAME__c</members>
         <members>Dedicated_CSVcsv__dlm.VAULT__c</members>
         <members>Dedicated_CSVcsv__dlm.cdp_sys_SourceVersion__c</members>
+        <members>ssot__Individual__dlm.City__c</members>
         <members>ssot__Individual__dlm.ExternalId__c</members>
         <members>ssot__Individual__dlm.Loyalty_Tier__c</members>
         <name>CustomField</name>
     </types>
     <types>
+        <members>Campaign_Engagement__dlm</members>
         <members>Dedicated_CSVcsv__dlm</members>
         <name>CustomObject</name>
     </types>
     <types>
         <members>CI_tier_score</members>
+        <members>Dk_insight</members>
         <members>Test_Insight</members>
         <name>DataCalcInsightTemplate</name>
     </types>
     <types>
+        <members>CONSUMER_BANKING_CAMPAIGN</members>
         <members>Consumer_Banking_Campaign</members>
         <members>Customerscsv</members>
         <members>Dedicated_CSVcsv1</members>
@@ -37,9 +52,13 @@
         <name>DataKitObjectDependency</name>
     </types>
     <types>
+        <members>CONSUMER_BANKING_CAMPAIGN</members>
         <members>Consumer_Banking_Campaign</members>
         <members>Customerscsv</members>
+        <members>DK_activation1795784607189</members>
+        <members>Datacloud_Test</members>
         <members>Dedicated_CSVcsv1</members>
+        <members>Gold_Tier_Customers</members>
         <members>Learn_Activation_Target1</members>
         <members>Learn_Segment1</members>
         <members>Learn_Test17915433722621</members>
@@ -65,6 +84,17 @@
         <members>dk_test_repro_1795498615761</members>
         <members>dk_test_repro_1795498615902</members>
         <members>dk_test_repro_1795498616541</members>
+        <members>dk_test_repro_1795784716905</members>
+        <members>dk_test_repro_1795784717132</members>
+        <members>dk_test_repro_1795784717349</members>
+        <members>dk_test_repro_1795784717587</members>
+        <members>dk_test_repro_1795784717763</members>
+        <members>dk_test_repro_1795784719113</members>
+        <members>dk_test_repro_1795784722114</members>
+        <members>dk_test_repro_1795784767106</members>
+        <members>dk_test_repro_1795784913512</members>
+        <members>dk_test_repro_1795784962661</members>
+        <members>dk_test_repro_1795785127243</members>
         <name>DataPackageKitObject</name>
     </types>
     <types>
@@ -74,11 +104,13 @@
     </types>
     <types>
         <members>BundleTest</members>
+        <members>Test</members>
         <members>TestRandom</members>
         <members>adithya</members>
         <name>DataSourceBundleDefinition</name>
     </types>
     <types>
+        <members>CONSUMER_BANKING_CAMPAIGN1</members>
         <members>Consumer_Banking_Campaign1</members>
         <members>Customerscsv1</members>
         <members>Dedicated_CSVcsv2</members>
@@ -105,9 +137,35 @@
         <members>Test_LearnUploadedFilesExternalIdIndividualIdfRVNzmsmQOvIwwr</members>
         <members>Test_LearnUploadedFilesInternalOrganizationIndividualInternalOrganizationIdxkDYeVBBpALdJsi</members>
         <members>Test_LearnUploadedFilesNAMEIndividualFirstNameOhclSsqRCbbnfov</members>
+        <members>dk_test_reproSnowflake_QA_EnvironmentDataSourceCampaign_EngagementDataSourceCVSICwGLxMakqhb</members>
+        <members>dk_test_reproSnowflake_QA_EnvironmentDataSourceContactPointEmailDataSourceIdDqztoZmQXVpowrQ</members>
+        <members>dk_test_reproSnowflake_QA_EnvironmentDataSourceIndividualDataSourceIdrEwMzChgfqTLdMi</members>
+        <members>dk_test_reproSnowflake_QA_EnvironmentDataSourceObjectCampaign_EngagementDataSourceObjectJUBhbgBylLonDaD</members>
+        <members>dk_test_reproSnowflake_QA_EnvironmentDataSourceObjectContactPointEmailDataSourceObjectIdzVbyZrzRwJqmNuW</members>
+        <members>dk_test_reproSnowflake_QA_EnvironmentDataSourceObjectIndividualDataSourceObjectIdhYIxBbVmOjONUKH</members>
+        <members>dk_test_reproSnowflake_QA_EnvironmentInternalOrganizationCampaign_EngagementInternalOrganizationfEgJntXLrRZKYwM</members>
+        <members>dk_test_reproSnowflake_QA_EnvironmentInternalOrganizationContactPointEmailInternalOrganizationIdBygIKDMrfabzBHQ</members>
+        <members>dk_test_reproSnowflake_QA_EnvironmentInternalOrganizationIndividualInternalOrganizationIdsBAnnhdZVckOTXM</members>
+        <members>dk_test_reproSnowflake_QA_Environmentcampaign_idCampaign_Engagementcampaign_idCOPtfdLwmvWrGXH</members>
+        <members>dk_test_reproSnowflake_QA_Environmentcampaign_nameCampaign_Engagementcampaign_nameRuZqCVEXrBOtMQU</members>
+        <members>dk_test_reproSnowflake_QA_EnvironmentchannelCampaign_EngagementchannelbdZRuNPCHYjkdmq</members>
+        <members>dk_test_reproSnowflake_QA_EnvironmentcityIndividualCitybdmTvVtrkzwxBDM</members>
+        <members>dk_test_reproSnowflake_QA_EnvironmentemailContactPointEmailEmailAddresszrKcRKhpyaLYlOi</members>
+        <members>dk_test_reproSnowflake_QA_Environmentengagement_dateCampaign_Engagementengagement_dateaxLuGRCdiGgoaza</members>
+        <members>dk_test_reproSnowflake_QA_Environmentfirst_nameIndividualFirstNameHUKUXDmgkLGowdQ</members>
+        <members>dk_test_reproSnowflake_QA_Environmentlast_nameIndividualLastNameGHbTtSQYhrDRzKR</members>
+        <members>dk_test_reproSnowflake_QA_Environmentloyalty_tierIndividualLoyalty_TierPTFbDmpVpojSgmz</members>
+        <members>dk_test_reproSnowflake_QA_Environmentrecord_idCampaign_Engagementrecord_idGCfDdvtbIwDaplI</members>
+        <members>dk_test_reproSnowflake_QA_Environmentrecord_idContactPointEmailIdPgoARuQkEBZWOQy</members>
+        <members>dk_test_reproSnowflake_QA_Environmentrecord_idContactPointEmailPartyIdZMBdlcSpFfIPmHX</members>
+        <members>dk_test_reproSnowflake_QA_Environmentrecord_idIndividualIdBcsUJpbTSsuuKOv</members>
+        <members>dk_test_reproSnowflake_QA_Environmentresponse_amountCampaign_Engagementresponse_amountxBohQofjqrLiSdM</members>
+        <members>dk_test_reproSnowflake_QA_EnvironmentstatusCampaign_EngagementstatusxkNofAucEdCnVtj</members>
+        <members>dk_test_reproSnowflake_QA_EnvironmentstatusContactPointEmailIsActivetZdtCCQxVeuPoKu</members>
         <name>DataSrcDataModelFieldMap</name>
     </types>
     <types>
+        <members>CONSUMER_BANKING_CAMPAIGN_1795784720559</members>
         <members>Consumer_Banking_Campaign_1795498616559</members>
         <members>Customerscsv_1795756292201</members>
         <members>Dedicated_CSVcsv_1795079497900</members>

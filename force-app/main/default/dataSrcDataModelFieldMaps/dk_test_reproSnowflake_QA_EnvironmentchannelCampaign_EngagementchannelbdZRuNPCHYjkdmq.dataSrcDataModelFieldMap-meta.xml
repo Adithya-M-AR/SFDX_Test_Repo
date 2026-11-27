@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<DataSrcDataModelFieldMap xmlns="http://soap.sforce.com/2006/04/metadata">
+    <filterApplied>false</filterApplied>
+    <masterLabel>dk_test_reproSnowflake_QA_EnvironmentchannelCampaign_EngagementchannelbdZRuNPCHYjkdmq</masterLabel>
+    <sourceField>CONSUMER_BANKING_CAMPAIGN1.channel__c</sourceField>
+    <targetField>Campaign_Engagement__dlm.channel__c</targetField>
+    <templateVersion>1</templateVersion>
+    <versionNumber>1.0</versionNumber>
+</DataSrcDataModelFieldMap>

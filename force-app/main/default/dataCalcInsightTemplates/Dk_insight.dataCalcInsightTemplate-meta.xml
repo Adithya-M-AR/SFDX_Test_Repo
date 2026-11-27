@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<DataCalcInsightTemplate xmlns="http://soap.sforce.com/2006/04/metadata" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+    <builderExpression>{&quot;version&quot;:&quot;2.0&quot;,&quot;app&quot;:{&quot;insightType&quot;:&quot;CALCULATED_METRIC&quot;,&quot;targetCurrencyType&quot;:&quot;&quot;},&quot;dataNodes&quot;:{&quot;LOAD_DATA_SOURCE0&quot;:{&quot;id&quot;:&quot;LOAD_DATA_SOURCE0&quot;,&quot;action&quot;:&quot;load&quot;,&quot;parameters&quot;:{&quot;dataset&quot;:{&quot;label&quot;:&quot;Campaign Engagement&quot;,&quot;name&quot;:&quot;Campaign_Engagement__dlm&quot;,&quot;creationType&quot;:&quot;Custom&quot;,&quot;isExternal&quot;:false,&quot;isExternalObjectInErrorStatus&quot;:false,&quot;type&quot;:&quot;dmo&quot;},&quot;fields&quot;:[&quot;response_amount__c&quot;,&quot;campaign_id__c&quot;],&quot;projectedFields&quot;:[],&quot;dataGraphSourcePathToPrimary&quot;:[]},&quot;sources&quot;:[]},&quot;AGGREGATE0&quot;:{&quot;id&quot;:&quot;AGGREGATE0&quot;,&quot;action&quot;:&quot;aggregate&quot;,&quot;parameters&quot;:{&quot;measures&quot;:[{&quot;name&quot;:&quot;response_amount&quot;,&quot;label&quot;:&quot;response_amount&quot;,&quot;functionName&quot;:&quot;sum&quot;,&quot;parameters&quot;:{&quot;expression&quot;:{&quot;resourceType&quot;:&quot;field&quot;,&quot;valueType&quot;:&quot;text&quot;,&quot;value&quot;:&quot;response_amount__c&quot;,&quot;dataType&quot;:&quot;number&quot;,&quot;source&quot;:&quot;LOAD_DATA_SOURCE0&quot;}}}],&quot;dimensions&quot;:[{&quot;name&quot;:&quot;CAMPAIGN_ID&quot;,&quot;label&quot;:&quot;CAMPAIGN_ID&quot;,&quot;resource&quot;:{&quot;resourceType&quot;:&quot;field&quot;,&quot;valueType&quot;:&quot;text&quot;,&quot;value&quot;:&quot;campaign_id__c&quot;,&quot;dataType&quot;:&quot;text&quot;,&quot;source&quot;:&quot;LOAD_DATA_SOURCE0&quot;,&quot;originatingDataSource&quot;:&quot;Campaign_Engagement__dlm&quot;,&quot;originalFieldName&quot;:&quot;campaign_id__c&quot;,&quot;isFieldFromRelatedDMO&quot;:false},&quot;readOnly&quot;:false,&quot;isDynamicWindowField&quot;:false}]},&quot;sources&quot;:[&quot;LOAD_DATA_SOURCE0&quot;]}},&quot;ui&quot;:{&quot;nodes&quot;:{&quot;LOAD_DATA_SOURCE0&quot;:{&quot;label&quot;:&quot;Campaign Engagement&quot;,&quot;type&quot;:&quot;LOAD_DATA_SOURCE&quot;,&quot;top&quot;:112,&quot;left&quot;:112},&quot;AGGREGATE0&quot;:{&quot;label&quot;:&quot;Aggregate&quot;,&quot;type&quot;:&quot;AGGREGATE&quot;,&quot;top&quot;:112,&quot;left&quot;:252}},&quot;connectors&quot;:[{&quot;targetNodeId&quot;:&quot;AGGREGATE0&quot;,&quot;sourceNodeId&quot;:&quot;LOAD_DATA_SOURCE0&quot;}]},&quot;relatedDMOs&quot;:[]}</builderExpression>
+    <creationType>Custom</creationType>
+    <dataspaceName>default</dataspaceName>
+    <dataspacePrefix xsi:nil="true"/>
+    <definitionType>CALCULATED_METRIC</definitionType>
+    <description xsi:nil="true"/>
+    <developerName>Dk_insight</developerName>
+    <dialect>ANSI_SQL</dialect>
+    <expression>SELECT
+  SUM(Campaign_Engagement__dlm.response_amount__c) AS response_amount__c,
+  Campaign_Engagement__dlm.campaign_id__c AS campaign_id__c
+FROM Campaign_Engagement__dlm
+GROUP BY campaign_id__c</expression>
+    <masterLabel>Dk_insight</masterLabel>
+    <scheduleInterval>0</scheduleInterval>
+    <sourceObjectDevName>Dk_insight</sourceObjectDevName>
+    <templateVersion>1</templateVersion>
+</DataCalcInsightTemplate>

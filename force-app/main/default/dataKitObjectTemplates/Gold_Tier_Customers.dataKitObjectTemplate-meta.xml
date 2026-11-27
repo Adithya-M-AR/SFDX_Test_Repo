@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<DataKitObjectTemplate xmlns="http://soap.sforce.com/2006/04/metadata" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+    <developerName xsi:nil="true"/>
+    <entityPayload>{&quot;publishType&quot;:&quot;STANDARD&quot;,&quot;includeCriteria&quot;:&quot;{\&quot;type\&quot;:\&quot;TextComparison\&quot;,\&quot;path\&quot;:null,\&quot;joinPath\&quot;:null,\&quot;subject\&quot;:{\&quot;objectApiName\&quot;:\&quot;ssot__Individual__dlm\&quot;,\&quot;fieldApiName\&quot;:\&quot;Loyalty_Tier__c\&quot;},\&quot;selfReference\&quot;:false,\&quot;operator\&quot;:\&quot;equal\&quot;,\&quot;subjectFieldDataType\&quot;:\&quot;TEXT\&quot;,\&quot;subjectFieldBusinessType\&quot;:\&quot;TEXT\&quot;,\&quot;subjectFieldSourceType\&quot;:\&quot;DIRECT\&quot;,\&quot;values\&quot;:[\&quot;Gold\&quot;]}&quot;,&quot;displayName&quot;:&quot;Gold Tier Customers&quot;,&quot;segmentOnLabel&quot;:&quot;Individual&quot;,&quot;segmentOnIsUnified&quot;:false,&quot;lookbackPeriod&quot;:&quot;P90D&quot;,&quot;type&quot;:&quot;UI&quot;,&quot;segmentOnApiName&quot;:&quot;ssot__Individual__dlm&quot;,&quot;developerName&quot;:&quot;Gold_Tier_Customers&quot;,&quot;segmentOnSourceApiName&quot;:&quot;ssot__Individual__dlm&quot;,&quot;tokensMap&quot;:{&quot;dmoMap&quot;:{&quot;ssot__Individual__dlm&quot;:&quot;ssot__Individual__dlm&quot;}}}</entityPayload>
+    <masterLabel>Gold Tier Customers</masterLabel>
+    <parentDataPackageKitDefinitionName xsi:nil="true"/>
+    <sourceObject>Gold_Tier_Customers</sourceObject>
+    <sourceObjectType>MarketSegment</sourceObjectType>
+    <templateVersion>1</templateVersion>
+</DataKitObjectTemplate>

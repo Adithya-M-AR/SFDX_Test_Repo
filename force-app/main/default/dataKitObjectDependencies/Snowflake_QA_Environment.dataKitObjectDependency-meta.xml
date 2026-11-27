@@ -3,7 +3,7 @@
     <dataPackageKitDef>dk_test_repro</dataPackageKitDef>
     <developerName>Snowflake_QA_Environment</developerName>
     <masterLabel>Snowflake QA Environment</masterLabel>
-    <sourceObject>Consumer_Banking_Campaign_1795498616559</sourceObject>
+    <sourceObject>CONSUMER_BANKING_CAMPAIGN_1795784720559</sourceObject>
     <sourceObjectType>DataStreamTemplate</sourceObjectType>
     <targetObject>Snowflake_QA_Environment</targetObject>
 </DataKitObjectDependency>

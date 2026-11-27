@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<DataKitObjectDependency xmlns="http://soap.sforce.com/2006/04/metadata">
+    <dataPackageKitDef>dk_test_repro</dataPackageKitDef>
+    <developerName>CONSUMER_BANKING_CAMPAIGN</developerName>
+    <masterLabel>CONSUMER_BANKING_CAMPAIGN__dll</masterLabel>
+    <sourceObject>CONSUMER_BANKING_CAMPAIGN1</sourceObject>
+    <sourceObjectType>DataSourceObject</sourceObjectType>
+    <targetObject>CONSUMER_BANKING_CAMPAIGN</targetObject>
+</DataKitObjectDependency>

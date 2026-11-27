@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<DataKitObjectTemplate xmlns="http://soap.sforce.com/2006/04/metadata" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+    <developerName xsi:nil="true"/>
+    <entityPayload>{&quot;dataSpaceName&quot;:&quot;default&quot;,&quot;isCappingEnabled&quot;:false,&quot;displayName&quot;:&quot;Datacloud_Test&quot;,&quot;type&quot;:&quot;DataCloud&quot;,&quot;developerName&quot;:&quot;Datacloud_Test&quot;}</entityPayload>
+    <masterLabel>Datacloud_Test</masterLabel>
+    <parentDataPackageKitDefinitionName xsi:nil="true"/>
+    <sourceObject>Datacloud_Test</sourceObject>
+    <sourceObjectType>ActivationTarget</sourceObjectType>
+    <templateVersion>1</templateVersion>
+</DataKitObjectTemplate>

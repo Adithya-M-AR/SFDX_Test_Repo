@@ -3,11 +3,11 @@
     <dataKitSource>LOCAL</dataKitSource>
     <dataKitType>SANDBOX</dataKitType>
     <dataSpaceDefinitionDevName>default</dataSpaceDefinitionDevName>
-    <deploymentOrder>{&quot;isAutoSequence&quot;:true,&quot;sequence&quot;:[{&quot;devName&quot;:&quot;Snowflake_QA_Environment&quot;,&quot;type&quot;:&quot;MktDataConnection&quot;,&quot;id&quot;:&quot;9cgOz00000011q5IAA&quot;},{&quot;devName&quot;:&quot;BundleTest&quot;,&quot;type&quot;:&quot;DataStream&quot;}]}</deploymentOrder>
+    <deploymentOrder>{&quot;isAutoSequence&quot;:true,&quot;sequence&quot;:[{&quot;devName&quot;:&quot;Snowflake_QA_Environment&quot;,&quot;type&quot;:&quot;MktDataConnection&quot;,&quot;id&quot;:&quot;9cgOz00000011q5IAA&quot;},{&quot;devName&quot;:&quot;Datacloud_Test&quot;,&quot;type&quot;:&quot;ActivationTarget&quot;,&quot;id&quot;:&quot;85UOz000002GgBpMAK&quot;},{&quot;devName&quot;:&quot;Test&quot;,&quot;type&quot;:&quot;DataStream&quot;},{&quot;devName&quot;:&quot;Dk_insight&quot;,&quot;type&quot;:&quot;DataCalcInsightTemplate&quot;,&quot;id&quot;:&quot;0kVOz00000005MHMAY&quot;},{&quot;devName&quot;:&quot;Gold_Tier_Customers&quot;,&quot;type&quot;:&quot;MarketSegment&quot;,&quot;id&quot;:&quot;1sgOz0000000yXFIAY&quot;},{&quot;devName&quot;:&quot;DK_activation1795784607189&quot;,&quot;type&quot;:&quot;MarketSegmentActivation&quot;,&quot;id&quot;:&quot;85ROz000001LXjZ&quot;}]}</deploymentOrder>
     <developerName>dk_test_repro</developerName>
     <isDeployed>false</isDeployed>
     <isEnabled>false</isEnabled>
     <masterLabel>dk_test_repro</masterLabel>
     <useDeterministicNaming>false</useDeterministicNaming>
-    <versionNumber>2.0</versionNumber>
+    <versionNumber>6.0</versionNumber>
 </DataPackageKitDefinition>

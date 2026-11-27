@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<DataPackageKitObject xmlns="http://soap.sforce.com/2006/04/metadata">
+    <masterLabel>dk_test_repro</masterLabel>
+    <parentDataPackageKitDefinitionName>dk_test_repro</parentDataPackageKitDefinitionName>
+    <referenceObjectName>Campaign_Engagement_record_id_map_ssot_Individual_ssot_Id_1795783533279</referenceObjectName>
+    <referenceObjectType>FieldSrcTrgtRelationship</referenceObjectType>
+</DataPackageKitObject>
